@@ -1,6 +1,8 @@
-# Speculative Actions: Faster Agentic Systems via Lossless Parallelism
+# Speculative Actions: A Lossless Framework for Faster Agentic Systems
 
 Predict likely next steps with a fast **Speculator** while a slower, authoritative **Actor** validates—turning idle waiting time into productive work.
+
+**Paper:** https://arxiv.org/pdf/2510.04371
 
 ## TL;DR
 This repo implements **Speculative Actions**, a systems-level pattern that accelerates agents in rich environments (games, tool-use pipelines, web search, OS tuning). We treat every agent step as an API call and speculate the most likely next response(s) using a fast model. When the slow, ground-truth executor agrees, we’ve already pre-launched subsequent calls. The user sees as-if sequential, lossless behavior—just faster.

@@ -118,7 +118,7 @@ Here, `"path/to/model_vs_model_runs"` should be a directory containing subfolder
 **Note:** In the speculative pipeline there is no speculative window after a prediction hit. Use `-add_spec=True` with `guess_over_spec_traj.py` to add speculative predictions for those windows too (for accuracy estimation).
 
 
-### Workflow 2: Regular trajectory method
+### Workflow 2 (Alternative): Regular trajectory method
 
 #### Step 1: Generate base trajectories
 
@@ -131,7 +131,7 @@ This creates a trajectory under `./trajectories/` with `stepsinfo.json`, `reward
 #### Step 2: Add speculative predictions
 
 ```bash
-uv run python regular_workflow/guess_over_regular_traj.py
+uv run regular_workflow/guess_over_regular_traj.py
 ```
 
 Optionally pass a path to a trajectory directory or `stepsinfo.json`. This produces `steps_info_{model_name}_guess_{num_guesses}.json` in the same directory.
@@ -141,7 +141,7 @@ Optionally pass a path to a trajectory directory or `stepsinfo.json`. This produ
 From `chess-game/`, run analysis on trajectory directories (default: `./trajectories/sample_trajectories` if no argument, or pass a base path that contains per-run subdirs):
 
 ```bash
-uv run python guess_analysis.py [base_directory]
+uv run guess_analysis.py [base_directory]
 ```
 
 This reports:
@@ -158,11 +158,11 @@ Use the unified `plot.py` with subcommands:
 **Time vs tokens** (scatter; one PDF per trajectory folder under the base dir):
 
 ```bash
-uv run python plot.py time-token
+uv run plot.py time-token
 # Optional: base dir (default from config paths.sample_trajectories)
-uv run python plot.py time-token --base-dir ./trajectories/sample_trajectories
+uv run plot.py time-token --base-dir ./trajectories/sample_trajectories
 # With confidence-based policy overlay (reads analysis_results_with_confidence.csv):
-uv run python plot.py time-token --confidence
+uv run plot.py time-token --confidence
 ```
 
 Output: each folder gets `plot.pdf`, or `plot_with_confidence.pdf` when using `--confidence`.
@@ -186,15 +186,15 @@ To try the confidence-aware selective branching policy from the paper:
 
 1. Add confidence estimates to a step file (`steps_info_*_guess_*.json`):
    ```bash
-   uv run python confidence-prediction.py
+   uv run confidence-prediction.py
    ```
 2. Run analysis with the `--confidence` flag (uses `steps_info*_confidence_prediction.json`, filters guesses by confidence > 50):
    ```bash
-   uv run python guess_analysis.py --confidence
+   uv run guess_analysis.py --confidence
    ```
 3. Visualize (time vs tokens with confidence policy overlay):
    ```bash
-   uv run python plot.py time-token --confidence
+   uv run plot.py time-token --confidence
    ```
 
 
