@@ -126,9 +126,9 @@ def guess_action_confidence_score(
     if ground_truth_move is None:
         raise ValueError("ground_truth_move cannot be None")
 
-    guesses.append(ground_truth_move)
+    moves_for_prompt = list(guesses) + [ground_truth_move]
 
-    prompt = PromptTemplates.PREDICTION_PROMPT.format(guesses=guesses, observation=observation)
+    prompt = PromptTemplates.PREDICTION_PROMPT.format(guesses=moves_for_prompt, observation=observation)
 
     print(f"Prompt: {prompt}")
 
@@ -191,7 +191,7 @@ def process_trajectory_with_guesses(
         ground_truth_move = guess_info[step]["current_move"]
         guessed_moves = guess_info[step]["guessed_moves"]
 
-        if "confidence_scores" in new_step_info[step]:
+        if step in new_step_info and "confidence_scores" in new_step_info[step]:
             confidence_scores = new_step_info[step]["confidence_scores"]
             prediction_times = new_step_info[step]["prediction_times"]
         else:

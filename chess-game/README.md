@@ -95,7 +95,7 @@ guess:
 
 Run all commands from `chess-game/`.
 
-### Workflow 1: Speculative generation
+### Workflow 1: Speculative generation (Recommended)
 
 Generate trajectories with speculation built-in (speculative responses computed in parallel during gameplay):
 
@@ -155,6 +155,19 @@ Results are written to `analysis_results.csv` in each trajectory directory.
 
 Use the unified `plot.py` with subcommands:
 
+**Combined bar charts** (accuracy + time saved, aggregated over all trajectory dirs under a root, Figure 2 in the paper):
+
+```bash
+uv run python plot.py bars --root-path ./trajectories/sample_trajectories
+```
+
+The PDF is written to the provided directory by default: `<root_path>/combined_bar_plots.pdf`. Override with `-o path/to/file.pdf`.
+
+Options for `bars`:
+- `--target-steps 30 50` — which step counts to plot (or set `analysis.target_steps` in config)
+- `--speculative-accuracy` — use speculative/window accuracy (CSV column 12); otherwise step accuracy (column 11)
+- `--output` / `-o` — output path (default: `<root_path>/combined_bar_plots.pdf`)
+
 **Time vs tokens** (scatter; one PDF per trajectory folder under the base dir):
 
 ```bash
@@ -167,18 +180,7 @@ uv run plot.py time-token --confidence
 
 Output: each folder gets `plot.pdf`, or `plot_with_confidence.pdf` when using `--confidence`.
 
-**Combined bar charts** (accuracy + time saved, aggregated over all trajectory dirs under a root):
 
-```bash
-uv run python plot.py bars --root-path ./trajectories/sample_trajectories
-```
-
-The PDF is written to the provided directory by default: `<root_path>/combined_bar_plots.pdf`. Override with `-o path/to/file.pdf`.
-
-Options for `bars`:
-- `--target-steps 30 50` — which step counts to plot (or set `analysis.target_steps` in config)
-- `--speculative-accuracy` — use speculative/window accuracy (CSV column 12); otherwise step accuracy (column 11)
-- `--output` / `-o` — output path (default: `<root_path>/combined_bar_plots.pdf`)
 
 ## Confidence-aware selective branching
 
@@ -248,6 +250,6 @@ game:
 
 ## Sample trajectories
 
-`./trajectories/sample_trajectories/` contains example runs. Each subdirectory is one game with analysis files (e.g. different numbers of speculative predictions). Use them to see the data format before generating your own.
+`./trajectories/sample_trajectories/` contains example runs. Each subdirectory is one game with analysis files (e.g. different numbers of speculative predictions). 
 
 

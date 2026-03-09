@@ -18,6 +18,9 @@ from datetime import datetime
 from typing import List, Dict, Any, Optional
 
 
+CONFIDENCE_THRESHOLD = 50.0
+
+
 def load_step_info(file_path: str) -> Dict[str, Any]:
     with open(file_path, "r") as f:
         return json.load(f)
@@ -25,6 +28,20 @@ def load_step_info(file_path: str) -> Dict[str, Any]:
 
 def analyze_with_truncation(step_info: Dict[str, Any], target_steps: int, with_confidence: bool = False) -> Dict[str, Any]:
     steps: List[Dict[str, Any]] = list(step_info.values())
+    target_steps = min(target_steps, len(steps))
+    if target_steps <= 0:
+        return {
+            "num_predictions": 0,
+            "time_regular": 0.0,
+            "time_speculate": 0.0,
+            "time_saved_percentage": 0.0,
+            "tokens_regular": 0.0,
+            "tokens_speculate": 0.0,
+            "tokens_wasted_percentage": 0.0,
+            "match_number": 0,
+            "accuracy": 0.0,
+            "speculative_window_accuracy": 0.0,
+        }
     time_checker_regular = 0
     token_checker_regular = 0
     token_checker_speculate = 0
@@ -53,10 +70,11 @@ def analyze_with_truncation(step_info: Dict[str, Any], target_steps: int, with_c
         if with_confidence:
             guessed_and_gt = steps[step].get("guessed_moves + ground_truth_move", steps[step].get("guessed_moves", []))
             confidence_scores = steps[step].get("confidence_scores", [])
-            if len(guessed_and_gt) > 1 and len(confidence_scores) >= len(guessed_and_gt) - 1:
+            if len(guessed_and_gt) > 1 and len(confidence_scores) >= 1:
                 guessed_moves = guessed_and_gt[:-1]
-                scores = confidence_scores[:-1]
-                filtered_guessed_moves = [guessed_moves[i] for i in range(len(guessed_moves)) if scores[i] > 50]
+                n = min(len(guessed_moves), len(confidence_scores))
+                scores = (confidence_scores[:-1] if len(confidence_scores) > n else confidence_scores)[:n]
+                filtered_guessed_moves = [guessed_moves[i] for i in range(n) if scores[i] > CONFIDENCE_THRESHOLD]
             else:
                 filtered_guessed_moves = steps[step].get("guessed_moves", [])
             moves_to_check = filtered_guessed_moves

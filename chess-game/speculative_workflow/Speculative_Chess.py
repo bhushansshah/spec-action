@@ -553,7 +553,8 @@ def main():
         config.trajectories_path = args.trajectories_dir.rstrip("/")
 
     runner = SpeculativeChessRunner(config=config)
-    runner.run(stop_after=config.stop_after)
+    stop_after = args.stop_after if args.stop_after is not None else config.stop_after
+    runner.run(stop_after=stop_after)
 
     print("Run completed")
 
