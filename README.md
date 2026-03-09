@@ -11,9 +11,7 @@ This repo implements **Speculative Actions**, a systems-level pattern that accel
 
 - Works across environments: chess, e-commerce (τ-bench retail), HotpotQA web search, plus a lossy systems extension for OS hyperparameter tuning
 
-- Theory: simple model predicts up to ~50% asymptotic latency reduction under idealized assumptions; wider/top-K speculation gives larger practical gains
-
-- Practice: top-1/3 guesses often match; we measure both accuracy and wall-clock speedup across settings
+- Theory: simple model predicts up to p/(1+p) asymptotic latency reduction under idealized assumptions; wider/top-K speculation gives larger practical gains
 
 ## Repository layout
 
@@ -31,8 +29,6 @@ speculative-action/
 ├── hotpotqa/                 # Multi-hop web search (lossless)
 └── os-tuning/                # OS hyperparameter tuning (lossy extension)
 ```
-
-**Working directory convention:** For any environment, **run all commands from that environment's root** (e.g. `cd chess-game` then run scripts or entry points). Config and default data paths (e.g. `config.yml`, `trajectories/`) are relative to that root. This keeps imports and paths consistent without hardcoded or cwd-dependent paths.
 
 ## Environments
 
