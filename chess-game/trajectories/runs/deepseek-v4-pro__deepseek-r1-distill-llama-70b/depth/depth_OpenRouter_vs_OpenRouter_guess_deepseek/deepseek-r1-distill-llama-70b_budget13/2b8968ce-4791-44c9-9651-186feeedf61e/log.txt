@@ -1,0 +1,2246 @@
+ACTOR_LAUNCH_FORCE → fire Actor @d=0 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=0 for â=None
+
+ACTOR White → [e2e4]
+
+ACTOR_RESOLVED ← ROOT Actor @d=0 returned [e2e4]
+
+MISS ✗ MISS step=0 a_true=[e2e4] preds=[]
+
+ABANDON ⌀ abandon subtree @d=0 (â=None)
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=1 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=1 for â=None
+
+SPEC White candidates → ['[e2e4]', '[g1f3]', '[d2d4]']
+
+ACTOR Black → [e7e5]
+
+ACTOR_RESOLVED ← ROOT Actor @d=1 returned [e7e5]
+
+MISS ✗ MISS step=1 a_true=[e7e5] preds=[]
+
+ABANDON ⌀ abandon subtree @d=1 (â=None)
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=2 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=2 for â=None
+
+ACTOR White → [g1f3]
+
+ACTOR_RESOLVED ← ROOT Actor @d=2 returned [g1f3]
+
+MISS ✗ MISS step=2 a_true=[g1f3] preds=[]
+
+ABANDON ⌀ abandon subtree @d=2 (â=None)
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=3 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=3 for â=None
+
+ACTOR Black → [b8c6]
+
+ACTOR_RESOLVED ← ROOT Actor @d=3 returned [b8c6]
+
+MISS ✗ MISS step=3 a_true=[b8c6] preds=[]
+
+ABANDON ⌀ abandon subtree @d=3 (â=None)
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=4 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=4 for â=None
+
+SPEC White candidates → ['[g1f3]', '[d2d4]']
+
+SPEC Black candidates → ['[g8e7]', '[g8h6]', '[f8e7]']
+
+SPEC White candidates → ['[f3e5]', '[f3g5]', '[d2d4]', '[f3e5]', '[f3g5]', '[d2d4]']
+
+SPEC_RESOLVED ← Speculator @d=4 returned ['[f3e5]', '[f3g5]', '[d2d4]']
+
+ACTOR_LAUNCH → fire Actor @d=5 for â=[f3e5]
+
+SPEC_LAUNCH → fire Speculator @d=5 for â=[f3e5]
+
+ACTOR_LAUNCH → fire Actor @d=5 for â=[f3g5]
+
+SPEC_LAUNCH → fire Speculator @d=5 for â=[f3g5]
+
+ACTOR_LAUNCH → fire Actor @d=5 for â=[d2d4]
+
+SPEC_LAUNCH → fire Speculator @d=5 for â=[d2d4]
+
+SPEC Black candidates → ['[e7e5]', '[d7d5]', '[g8f6]']
+
+SPEC Black candidates → ['[g8e7]', '[f8e7]', '[d8e7]']
+
+SPEC_RESOLVED ← Speculator @d=5 returned ['[g8e7]', '[f8e7]', '[d8e7]']
+
+ACTOR_LAUNCH → fire Actor @d=6 for â=[g8e7]
+
+SPEC_LAUNCH → fire Speculator @d=6 for â=[g8e7]
+
+ACTOR_LAUNCH → fire Actor @d=6 for â=[f8e7]
+
+SPEC_LAUNCH → fire Speculator @d=6 for â=[f8e7]
+
+ACTOR_LAUNCH → fire Actor @d=6 for â=[d8e7]
+
+SPEC_LAUNCH → fire Speculator @d=6 for â=[d8e7]
+
+SPEC Black candidates → ['[c6d4]', '[g8e7]', '[h7h6]']
+
+SPEC_RESOLVED ← Speculator @d=5 returned ['[c6d4]', '[g8e7]', '[h7h6]']
+
+ACTOR_LAUNCH → fire Actor @d=6 for â=[c6d4]
+
+SPEC_LAUNCH → fire Speculator @d=6 for â=[c6d4]
+
+ACTOR_LAUNCH → fire Actor @d=6 for â=[g8e7]
+
+SPEC_LAUNCH → fire Speculator @d=6 for â=[g8e7]
+
+ACTOR_LAUNCH → fire Actor @d=6 for â=[h7h6]
+
+SPEC_LAUNCH → fire Speculator @d=6 for â=[h7h6]
+
+SPEC Black candidates → ['[d8e7]', '[g8e7]', '[f8e7]']
+
+SPEC_RESOLVED ← Speculator @d=5 returned ['[d8e7]', '[g8e7]', '[f8e7]']
+
+ACTOR_LAUNCH → fire Actor @d=6 for â=[d8e7]
+
+SPEC_LAUNCH → fire Speculator @d=6 for â=[d8e7]
+
+ACTOR_LAUNCH → fire Actor @d=6 for â=[g8e7]
+
+SPEC_LAUNCH → fire Speculator @d=6 for â=[g8e7]
+
+ACTOR_LAUNCH → fire Actor @d=6 for â=[f8e7]
+
+SPEC_LAUNCH → fire Speculator @d=6 for â=[f8e7]
+
+SPEC White candidates → ['[h1g1]', '[e5f7]', '[e5d7]']
+
+SPEC_RESOLVED ← Speculator @d=6 returned ['[h1g1]', '[e5f7]', '[e5d7]']
+
+ACTOR_DEFERRED ~ Actor @d=7 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=7 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=7 DEFERRED (budget full)
+
+SPEC White candidates → ['[f3e5]', '[d1d4]']
+
+SPEC_RESOLVED ← Speculator @d=6 returned ['[f3e5]', '[d1d4]']
+
+ACTOR_DEFERRED ~ Actor @d=7 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=7 DEFERRED (budget full)
+
+SPEC White candidates → ['[e5f7]', '[e5g4]', '[e5d7]', '[e5f7]', '[e5g4]', '[e5d7]', '[e5f7]', '[e5g4]', '[e5d7]']
+
+SPEC_RESOLVED ← Speculator @d=6 returned ['[e5f7]', '[e5g4]', '[e5d7]']
+
+ACTOR_DEFERRED ~ Actor @d=7 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=7 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=7 DEFERRED (budget full)
+
+ACTOR Black → [e5d4]
+
+ACTOR_RESOLVED ← Actor @d=5 returned [e5d4]
+
+ABANDON ⌀ abandon subtree @d=6 (â=[c6d4])
+
+ABANDON ⌀ abandon subtree @d=6 (â=[g8e7])
+
+ABANDON ⌀ abandon subtree @d=6 (â=[h7h6])
+
+SPEC White candidates → ['[f3e5]', '[d4e5]', '[f3g5]']
+
+SPEC White candidates → ['[f3g5]', '[d4d5]', '[c1h6]']
+
+SPEC White candidates → ['[d2d4]', '[e1e2]', '[c2c4]']
+
+SPEC_RESOLVED ← Speculator @d=6 returned ['[d2d4]', '[e1e2]', '[c2c4]']
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[d2d4]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[d2d4]
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[e1e2]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[e1e2]
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[c2c4]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[c2c4]
+
+SPEC White candidates → ['[d2d4]', '[f1c4]', '[e5g6]']
+
+SPEC_RESOLVED ← Speculator @d=6 returned ['[d2d4]', '[f1c4]', '[e5g6]']
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[d2d4]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[d2d4]
+
+ACTOR_DEFERRED ~ Actor @d=7 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=7 DEFERRED (budget full)
+
+ACTOR Black → [c6e5]
+
+ACTOR_RESOLVED ← Actor @d=5 returned [c6e5]
+
+ABANDON ⌀ abandon subtree @d=6 (â=[g8e7])
+
+ABANDON ⌀ abandon subtree @d=6 (â=[f8e7])
+
+ABANDON ⌀ abandon subtree @d=6 (â=[d8e7])
+
+SPEC White candidates → ['[g5f7]', '[g5h7]', '[g5e6]']
+
+SPEC_RESOLVED ← Speculator @d=6 returned ['[g5f7]', '[g5h7]', '[g5e6]']
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[g5f7]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[g5f7]
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[g5h7]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[g5h7]
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[g5e6]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[g5e6]
+
+ACTOR White → [f1b5]
+
+ACTOR_RESOLVED ← ROOT Actor @d=4 returned [f1b5]
+
+ABANDON ⌀ abandon subtree @d=5 (â=[f3e5])
+
+ABANDON ⌀ abandon subtree @d=5 (â=[f3g5])
+
+ABANDON ⌀ abandon subtree @d=5 (â=[d2d4])
+
+MISS ✗ MISS step=4 a_true=[f1b5] preds=['[f3e5]', '[f3g5]', '[d2d4]']
+
+ABANDON ⌀ abandon subtree @d=4 (â=None)
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=5 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=5 for â=None
+
+SPEC Black candidates → ['[g8f6]', '[e8d8]', '[g8h6]', '[g8f6]', '[e8d8]', '[g8h6]']
+
+ACTOR White → [d4d5]
+
+ACTOR Black → [h7h6]
+
+SPEC White candidates → ['[d1h5]', '[f1a6]', '[b1c3]']
+
+SPEC Black candidates → ['[e7e6]', '[e7d8]', '[g8f6]', '[e7e6]', '[e7d8]', '[g8f6]']
+
+SPEC Black candidates → ['[e7g5]', '[e7c5]', '[c6d8]', '[e7g5]', '[e7c5]', '[c6d8]', '[e7g5]', '[e7c5]', '[c6d8]']
+
+ACTOR White → [f3e5]
+
+SPEC Black candidates → ['[c6b4]', '[c6a5]', '[c6d4]']
+
+SPEC Black candidates → ['[e7g8]', '[h7h6]', '[g7g5]', '[e7g8]', '[h7h6]', '[g7g5]']
+
+ACTOR White → [d2d4]
+
+SPEC Black candidates → ['[e7f5]', '[c6b4]', '[d7d6]']
+
+ACTOR Black → [e7g5]
+
+ACTOR White → [f1c4]
+
+ACTOR White → [d4d5]
+
+SPEC Black candidates → ['[c6b8]', '[c6d4]', '[c6b4]', '[c6b8]']
+
+SPEC Black candidates → ['[g8e7]', '[c6e7]', '[d8e7]', '[g8e7]', '[c6e7]', '[d8e7]', '[g8e7]', '[c6e7]', '[d8e7]']
+
+SPEC_RESOLVED ← Speculator @d=5 returned ['[g8e7]', '[c6e7]', '[d8e7]']
+
+ACTOR_LAUNCH → fire Actor @d=6 for â=[g8e7]
+
+SPEC_LAUNCH → fire Speculator @d=6 for â=[g8e7]
+
+ACTOR_LAUNCH → fire Actor @d=6 for â=[c6e7]
+
+SPEC_LAUNCH → fire Speculator @d=6 for â=[c6e7]
+
+ACTOR_LAUNCH → fire Actor @d=6 for â=[d8e7]
+
+SPEC_LAUNCH → fire Speculator @d=6 for â=[d8e7]
+
+SPEC White candidates → ['[f3g5]', '[b5c6]', '[f3e5]']
+
+SPEC_RESOLVED ← Speculator @d=6 returned ['[f3g5]', '[b5c6]', '[f3e5]']
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[f3g5]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[f3g5]
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[b5c6]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[b5c6]
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[f3e5]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[f3e5]
+
+SPEC White candidates → ['[f3g5]', '[b5d7]', '[f3e5]']
+
+SPEC_RESOLVED ← Speculator @d=6 returned ['[f3g5]', '[b5d7]', '[f3e5]']
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[f3g5]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[f3g5]
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[b5d7]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[b5d7]
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[f3e5]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[f3e5]
+
+ACTOR White → [e1g1]
+
+ACTOR_RESOLVED ← Actor @d=6 returned [e1g1]
+
+SPEC White candidates → ['[b5c6]', '[f3g5]', '[f3e5]']
+
+SPEC_RESOLVED ← Speculator @d=6 returned ['[b5c6]', '[f3g5]', '[f3e5]']
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[b5c6]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[b5c6]
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[f3g5]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[f3g5]
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[f3e5]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[f3e5]
+
+ABANDON ⌀ abandon subtree @d=7 (â=[b5c6])
+
+ABANDON ⌀ abandon subtree @d=7 (â=[f3g5])
+
+ABANDON ⌀ abandon subtree @d=7 (â=[f3e5])
+
+ACTOR White → [e5c6]
+
+ACTOR Black → [e8f7]
+
+ACTOR Black → [e7g6]
+
+SPEC Black candidates → ['[e7g8]', '[c6d4]', '[f7f5]']
+
+SPEC_RESOLVED ← Speculator @d=7 returned ['[e7g8]', '[c6d4]', '[f7f5]']
+
+ACTOR_LAUNCH → fire Actor @d=8 for â=[e7g8]
+
+SPEC_LAUNCH → fire Speculator @d=8 for â=[e7g8]
+
+ACTOR_LAUNCH → fire Actor @d=8 for â=[c6d4]
+
+SPEC_LAUNCH → fire Speculator @d=8 for â=[c6d4]
+
+ACTOR_LAUNCH → fire Actor @d=8 for â=[f7f5]
+
+SPEC_LAUNCH → fire Speculator @d=8 for â=[f7f5]
+
+SPEC Black candidates → ['[e7f5]', '[e7g6]', '[f7f6]', '[e7f5]', '[e7g6]', '[f7f6]', '[e7f5]', '[e7g6]', '[f7f6]']
+
+SPEC_RESOLVED ← Speculator @d=7 returned ['[e7f5]', '[e7g6]', '[f7f6]']
+
+ACTOR_LAUNCH → fire Actor @d=8 for â=[e7f5]
+
+SPEC_LAUNCH → fire Speculator @d=8 for â=[e7f5]
+
+ACTOR_DEFERRED ~ Actor @d=8 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=8 DEFERRED (budget full)
+
+ACTOR Black → [g8f6]
+
+ACTOR_RESOLVED ← ROOT Actor @d=5 returned [g8f6]
+
+ABANDON ⌀ abandon subtree @d=6 (â=[g8e7])
+
+ABANDON ⌀ abandon subtree @d=6 (â=[c6e7])
+
+ABANDON ⌀ abandon subtree @d=6 (â=[d8e7])
+
+MISS ✗ MISS step=5 a_true=[g8f6] preds=['[g8e7]', '[c6e7]', '[d8e7]']
+
+ABANDON ⌀ abandon subtree @d=5 (â=None)
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=6 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=6 for â=None
+
+SPEC Black candidates → ['[e7f5]', '[c6e5]', '[h7h6]']
+
+SPEC Black candidates → ['[g8h6]', '[g8f6]', '[h7h6]']
+
+ACTOR White → [f1c4]
+
+SPEC Black candidates → ['[d8d7]', '[e8d7]', '[c8d7]', '[d8d7]', '[e8d7]', '[c8d7]']
+
+ACTOR Black → [h7h6]
+
+SPEC Black candidates → ['[e7f5]', '[e7g6]', '[g8h6]', '[e7f5]', '[e7g6]', '[g8h6]']
+
+ACTOR White → [d2d4]
+
+SPEC Black candidates → ['[e7g5]', '[e7c5]', '[g8f6]']
+
+ACTOR Black → [e7e6]
+
+ACTOR Black → [d7e6]
+
+SPEC Black candidates → ['[e8d8]', '[c6d8]', '[d7d6]', '[e8d8]', '[c6d8]', '[d7d6]', '[e8d8]', '[c6d8]', '[d7d6]']
+
+SPEC Black candidates → ['[e7d8]', '[c6e5]', '[e7e5]']
+
+ACTOR White → [f3e5]
+
+SPEC White candidates → ['[d1h5]', '[b5c6]', '[b5a6]']
+
+ACTOR Black → [e7g6]
+
+ACTOR Black → [e7g5]
+
+ACTOR Black → [d7c6]
+
+SPEC White candidates → ['[e1f1]', '[g5e6]', '[a2a4]']
+
+SPEC White candidates → ['[g5h7]', '[b5d7]', '[h1g1]']
+
+SPEC White candidates → ['[c6d7]', '[f3g5]', '[e4f5]']
+
+ACTOR Black → [e7g5]
+
+ACTOR Black → [c7c6]
+
+SPEC White candidates → ['[d2d4]', '[f3e5]', '[b5c6]']
+
+SPEC_RESOLVED ← Speculator @d=6 returned ['[d2d4]', '[f3e5]', '[b5c6]']
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[d2d4]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[d2d4]
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[f3e5]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[f3e5]
+
+ACTOR_LAUNCH → fire Actor @d=7 for â=[b5c6]
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=[b5c6]
+
+ACTOR White → [g5f3]
+
+SPEC Black candidates → ['[f8e7]', '[f8d6]', '[f6e4]']
+
+SPEC_RESOLVED ← Speculator @d=7 returned ['[f8e7]', '[f8d6]', '[f6e4]']
+
+ACTOR_LAUNCH → fire Actor @d=8 for â=[f8e7]
+
+SPEC_LAUNCH → fire Speculator @d=8 for â=[f8e7]
+
+ACTOR_LAUNCH → fire Actor @d=8 for â=[f8d6]
+
+SPEC_LAUNCH → fire Speculator @d=8 for â=[f8d6]
+
+ACTOR_LAUNCH → fire Actor @d=8 for â=[f6e4]
+
+SPEC_LAUNCH → fire Speculator @d=8 for â=[f6e4]
+
+ACTOR White → [e1g1]
+
+ACTOR_RESOLVED ← ROOT Actor @d=6 returned [e1g1]
+
+ABANDON ⌀ abandon subtree @d=7 (â=[d2d4])
+
+ABANDON ⌀ abandon subtree @d=7 (â=[f3e5])
+
+ABANDON ⌀ abandon subtree @d=7 (â=[b5c6])
+
+MISS ✗ MISS step=6 a_true=[e1g1] preds=['[d2d4]', '[f3e5]', '[b5c6]']
+
+ABANDON ⌀ abandon subtree @d=6 (â=None)
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=7 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=7 for â=None
+
+ACTOR Black → [e7c6]
+
+SPEC Black candidates → ['[h8g8]', '[c6e7]']
+
+SPEC Black candidates → ['[h7h6]']
+
+SPEC White candidates → ['[d4e5]', '[b5c6]', '[d4d5]']
+
+ACTOR Black → [g8f6]
+
+SPEC White candidates → ['[d4e5]', '[f3g5]', '[c1h6]']
+
+ACTOR Black → [e5d4]
+
+ACTOR White → [e4f5]
+
+ACTOR Black → [c8d7]
+
+SPEC White candidates → ['[f3g5]', '[f3e5]', '[b5c6]', '[f3g5]', '[f3e5]', '[b5c6]']
+
+SPEC Black candidates → ['[f6h5]', '[c6b8]', '[h8g8]']
+
+SPEC_RESOLVED ← Speculator @d=7 returned ['[f6h5]', '[c6b8]', '[h8g8]']
+
+ACTOR_LAUNCH → fire Actor @d=8 for â=[f6h5]
+
+SPEC_LAUNCH → fire Speculator @d=8 for â=[f6h5]
+
+ACTOR_LAUNCH → fire Actor @d=8 for â=[c6b8]
+
+SPEC_LAUNCH → fire Speculator @d=8 for â=[c6b8]
+
+ACTOR_LAUNCH → fire Actor @d=8 for â=[h8g8]
+
+SPEC_LAUNCH → fire Speculator @d=8 for â=[h8g8]
+
+ACTOR White → [e1g1]
+
+ACTOR White → [b1c3]
+
+SPEC White candidates → ['[b5a6]', '[f3g5]', '[b5c6]']
+
+SPEC_RESOLVED ← Speculator @d=8 returned ['[b5a6]', '[f3g5]', '[b5c6]']
+
+ACTOR_LAUNCH → fire Actor @d=9 for â=[b5a6]
+
+SPEC_LAUNCH → fire Speculator @d=9 for â=[b5a6]
+
+ACTOR_LAUNCH → fire Actor @d=9 for â=[f3g5]
+
+SPEC_LAUNCH → fire Speculator @d=9 for â=[f3g5]
+
+ACTOR_LAUNCH → fire Actor @d=9 for â=[b5c6]
+
+SPEC_LAUNCH → fire Speculator @d=9 for â=[b5c6]
+
+SPEC White candidates → ['[b5d7]', '[f3e5]', '[f1e1]']
+
+SPEC_RESOLVED ← Speculator @d=8 returned ['[b5d7]', '[f3e5]', '[f1e1]']
+
+ACTOR_LAUNCH → fire Actor @d=9 for â=[b5d7]
+
+SPEC_LAUNCH → fire Speculator @d=9 for â=[b5d7]
+
+ACTOR_LAUNCH → fire Actor @d=9 for â=[f3e5]
+
+SPEC_LAUNCH → fire Speculator @d=9 for â=[f3e5]
+
+ACTOR_LAUNCH → fire Actor @d=9 for â=[f1e1]
+
+SPEC_LAUNCH → fire Speculator @d=9 for â=[f1e1]
+
+ACTOR Black → [f6e4]
+
+ACTOR_RESOLVED ← ROOT Actor @d=7 returned [f6e4]
+
+ABANDON ⌀ abandon subtree @d=8 (â=[f6h5])
+
+ABANDON ⌀ abandon subtree @d=8 (â=[c6b8])
+
+ABANDON ⌀ abandon subtree @d=8 (â=[h8g8])
+
+MISS ✗ MISS step=7 a_true=[f6e4] preds=['[f6h5]', '[c6b8]', '[h8g8]']
+
+ABANDON ⌀ abandon subtree @d=7 (â=None)
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=8 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=8 for â=None
+
+SPEC White candidates → ['[b5c6]', '[f3g5]', '[f3e5]', '[b5c6]', '[f3g5]', '[f3e5]']
+
+SPEC Black candidates → ['[d8e7]', '[c6e7]', '[h5f6]']
+
+ACTOR White → [b1c3]
+
+ACTOR Black → [f6e4]
+
+SPEC Black candidates → ['[c6d4]', '[d7d5]', '[d8e7]']
+
+ACTOR Black → [b7a6]
+
+ACTOR White → [d2d4]
+
+SPEC Black candidates → ['[d7c6]', '[f7f5]', '[g7g6]']
+
+SPEC Black candidates → ['[c8d7]', '[b8d7]', '[d8d7]']
+
+ACTOR White → [d2d4]
+
+SPEC Black candidates → ['[f6e4]', '[e8e7]', '[h7h6]', '[f6e4]', '[e8e7]', '[h7h6]']
+
+ACTOR Black → [d7c6]
+
+SPEC Black candidates → ['[h8g8]', '[f6e4]', '[f8e7]']
+
+SPEC White candidates → ['[f3e5]', '[b5c6]', '[d2d4]']
+
+SPEC_RESOLVED ← Speculator @d=8 returned ['[f3e5]', '[b5c6]', '[d2d4]']
+
+ACTOR_LAUNCH → fire Actor @d=9 for â=[f3e5]
+
+SPEC_LAUNCH → fire Speculator @d=9 for â=[f3e5]
+
+ACTOR_LAUNCH → fire Actor @d=9 for â=[b5c6]
+
+SPEC_LAUNCH → fire Speculator @d=9 for â=[b5c6]
+
+ACTOR_LAUNCH → fire Actor @d=9 for â=[d2d4]
+
+SPEC_LAUNCH → fire Speculator @d=9 for â=[d2d4]
+
+ACTOR White → [g5f7]
+
+SPEC Black candidates → ['[c6e7]', '[f8e7]', '[d7d6]']
+
+SPEC_RESOLVED ← Speculator @d=9 returned ['[c6e7]', '[f8e7]', '[d7d6]']
+
+ACTOR_LAUNCH → fire Actor @d=10 for â=[c6e7]
+
+SPEC_LAUNCH → fire Speculator @d=10 for â=[c6e7]
+
+ACTOR_LAUNCH → fire Actor @d=10 for â=[f8e7]
+
+SPEC_LAUNCH → fire Speculator @d=10 for â=[f8e7]
+
+ACTOR_LAUNCH → fire Actor @d=10 for â=[d7d6]
+
+SPEC_LAUNCH → fire Speculator @d=10 for â=[d7d6]
+
+ACTOR White → [e1g1]
+
+SPEC Black candidates → ['[e4f6]', '[d8e7]', '[f8e7]']
+
+SPEC_RESOLVED ← Speculator @d=9 returned ['[e4f6]', '[d8e7]', '[f8e7]']
+
+ACTOR_LAUNCH → fire Actor @d=10 for â=[e4f6]
+
+SPEC_LAUNCH → fire Speculator @d=10 for â=[e4f6]
+
+ACTOR_LAUNCH → fire Actor @d=10 for â=[d8e7]
+
+SPEC_LAUNCH → fire Speculator @d=10 for â=[d8e7]
+
+ACTOR_LAUNCH → fire Actor @d=10 for â=[f8e7]
+
+SPEC_LAUNCH → fire Speculator @d=10 for â=[f8e7]
+
+ACTOR White → [e1g1]
+
+SPEC Black candidates → ['[d8e7]', '[f8e7]']
+
+SPEC_RESOLVED ← Speculator @d=9 returned ['[d8e7]', '[f8e7]']
+
+ACTOR_LAUNCH → fire Actor @d=10 for â=[d8e7]
+
+SPEC_LAUNCH → fire Speculator @d=10 for â=[d8e7]
+
+ACTOR_LAUNCH → fire Actor @d=10 for â=[f8e7]
+
+SPEC_LAUNCH → fire Speculator @d=10 for â=[f8e7]
+
+ACTOR Black → [f8e7]
+
+SPEC White candidates → ['[e5f7]', '[b5d7]', '[d2d4]', '[e5f7]', '[b5d7]', '[d2d4]']
+
+SPEC_RESOLVED ← Speculator @d=10 returned ['[e5f7]', '[b5d7]', '[d2d4]']
+
+ACTOR_LAUNCH → fire Actor @d=11 for â=[e5f7]
+
+SPEC_LAUNCH → fire Speculator @d=11 for â=[e5f7]
+
+ACTOR_DEFERRED ~ Actor @d=11 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=11 DEFERRED (budget full)
+
+ACTOR Black → [b8d7]
+
+ACTOR Black → [e7c6]
+
+ACTOR Black → [b7c6]
+
+SPEC White candidates → ['[d1h5]', '[b5c6]', '[e5f7]']
+
+SPEC_RESOLVED ← Speculator @d=10 returned ['[d1h5]', '[b5c6]', '[e5f7]']
+
+ACTOR_DEFERRED ~ Actor @d=11 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=11 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=11 DEFERRED (budget full)
+
+SPEC White candidates → ['[e5f7]']
+
+SPEC_RESOLVED ← Speculator @d=10 returned ['[e5f7]']
+
+ACTOR_DEFERRED ~ Actor @d=11 DEFERRED (budget full)
+
+SPEC White candidates → ['[f3g5]', '[d2d4]', '[f3e5]', '[f3g5]', '[d2d4]', '[f3e5]']
+
+SPEC_RESOLVED ← Speculator @d=10 returned ['[f3g5]', '[d2d4]', '[f3e5]']
+
+ACTOR_DEFERRED ~ Actor @d=11 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=11 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=11 DEFERRED (budget full)
+
+ACTOR Black → [d7d5]
+
+SPEC White candidates → ['[c6d7]', '[c6b5]', '[c6e4]']
+
+SPEC_RESOLVED ← Speculator @d=10 returned ['[c6d7]', '[c6b5]', '[c6e4]']
+
+ACTOR_DEFERRED ~ Actor @d=11 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=11 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=11 DEFERRED (budget full)
+
+ACTOR Black → [f6e4]
+
+SPEC White candidates → ['[f3g5]', '[f1e1]', '[c6e4]']
+
+SPEC_RESOLVED ← Speculator @d=10 returned ['[f3g5]', '[f1e1]', '[c6e4]']
+
+ACTOR_DEFERRED ~ Actor @d=11 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=11 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=11 DEFERRED (budget full)
+
+ACTOR White → [b5c6]
+
+ACTOR_RESOLVED ← ROOT Actor @d=8 returned [b5c6]
+
+ABANDON ⌀ abandon subtree @d=9 (â=[f3e5])
+
+ABANDON ⌀ abandon subtree @d=9 (â=[d2d4])
+
+HIT ✓ HIT step=8 a_true=[b5c6] matched [b5c6]
+
+SPEC White candidates → ['[f3g5]', '[c1h6]', '[d4e5]', '[f3g5]', '[c1h6]', '[d4e5]', '[f3g5]', '[c1h6]', '[d4e5]']
+
+ACTOR Black → [f8c5]
+
+SPEC White candidates → ['[d4e5]', '[c1g5]', '[f3e5]', '[d4e5]', '[c1g5]', '[f3e5]']
+
+ACTOR White → [b1c3]
+
+ACTOR_RESOLVED ← Actor @d=10 returned [b1c3]
+
+ABANDON ⌀ abandon subtree @d=11 (â=[f3g5])
+
+ABANDON ⌀ abandon subtree @d=11 (â=[d2d4])
+
+ABANDON ⌀ abandon subtree @d=11 (â=[f3e5])
+
+ACTOR White → [d2d4]
+
+SPEC Black candidates → ['[e8f7]', '[e4c5]', '[e4g5]']
+
+ACTOR Black → [f8d6]
+
+ACTOR_RESOLVED ← ROOT Actor @d=9 returned [f8d6]
+
+ABANDON ⌀ abandon subtree @d=10 (â=[e4f6])
+
+ABANDON ⌀ abandon subtree @d=10 (â=[d8e7])
+
+ABANDON ⌀ abandon subtree @d=10 (â=[f8e7])
+
+MISS ✗ MISS step=9 a_true=[f8d6] preds=['[e4f6]', '[d8e7]', '[f8e7]']
+
+ABANDON ⌀ abandon subtree @d=9 (â=[b5c6])
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=10 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=10 for â=None
+
+SPEC White candidates → ['[f3e5]', '[d2d4]', '[c6d5]']
+
+SPEC_RESOLVED ← Speculator @d=10 returned ['[f3e5]', '[d2d4]', '[c6d5]']
+
+ACTOR_LAUNCH → fire Actor @d=11 for â=[f3e5]
+
+SPEC_LAUNCH → fire Speculator @d=11 for â=[f3e5]
+
+ACTOR_LAUNCH → fire Actor @d=11 for â=[d2d4]
+
+SPEC_LAUNCH → fire Speculator @d=11 for â=[d2d4]
+
+ACTOR_LAUNCH → fire Actor @d=11 for â=[c6d5]
+
+SPEC_LAUNCH → fire Speculator @d=11 for â=[c6d5]
+
+ACTOR White → [c6b7]
+
+SPEC Black candidates → ['[d6e5]', '[d6f8]', '[e4g5]']
+
+SPEC_RESOLVED ← Speculator @d=11 returned ['[d6e5]', '[d6f8]', '[e4g5]']
+
+ACTOR_LAUNCH → fire Actor @d=12 for â=[d6e5]
+
+SPEC_LAUNCH → fire Speculator @d=12 for â=[d6e5]
+
+ACTOR_LAUNCH → fire Actor @d=12 for â=[d6f8]
+
+SPEC_LAUNCH → fire Speculator @d=12 for â=[d6f8]
+
+ACTOR_LAUNCH → fire Actor @d=12 for â=[e4g5]
+
+SPEC_LAUNCH → fire Speculator @d=12 for â=[e4g5]
+
+SPEC Black candidates → ['[d6f8]', '[d8e7]', '[e4f6]']
+
+SPEC_RESOLVED ← Speculator @d=11 returned ['[d6f8]', '[d8e7]', '[e4f6]']
+
+ACTOR_LAUNCH → fire Actor @d=12 for â=[d6f8]
+
+SPEC_LAUNCH → fire Speculator @d=12 for â=[d6f8]
+
+ACTOR_LAUNCH → fire Actor @d=12 for â=[d8e7]
+
+SPEC_LAUNCH → fire Speculator @d=12 for â=[d8e7]
+
+ACTOR_LAUNCH → fire Actor @d=12 for â=[e4f6]
+
+SPEC_LAUNCH → fire Speculator @d=12 for â=[e4f6]
+
+ACTOR White → [e5c6]
+
+SPEC Black candidates → ['[e8g8]', '[d8e7]', '[d8f6]']
+
+SPEC_RESOLVED ← Speculator @d=11 returned ['[e8g8]', '[d8e7]', '[d8f6]']
+
+ACTOR_LAUNCH → fire Actor @d=12 for â=[e8g8]
+
+SPEC_LAUNCH → fire Speculator @d=12 for â=[e8g8]
+
+ACTOR_LAUNCH → fire Actor @d=12 for â=[d8e7]
+
+SPEC_LAUNCH → fire Speculator @d=12 for â=[d8e7]
+
+ACTOR_LAUNCH → fire Actor @d=12 for â=[d8f6]
+
+SPEC_LAUNCH → fire Speculator @d=12 for â=[d8f6]
+
+ACTOR Black → [b8c6]
+
+SPEC White candidates → ['[d2d4]', '[c2c3]', '[f2f3]']
+
+SPEC_RESOLVED ← Speculator @d=12 returned ['[d2d4]', '[c2c3]', '[f2f3]']
+
+ACTOR_DEFERRED ~ Actor @d=13 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=13 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=13 DEFERRED (budget full)
+
+ACTOR White → [c6e4]
+
+SPEC White candidates → ['[d1e1]', '[e5f7]', '[d1f3]']
+
+SPEC_RESOLVED ← Speculator @d=12 returned ['[d1e1]', '[e5f7]', '[d1f3]']
+
+ACTOR_DEFERRED ~ Actor @d=13 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=13 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=13 DEFERRED (budget full)
+
+ACTOR White → [c6e4]
+
+ACTOR_RESOLVED ← ROOT Actor @d=10 returned [c6e4]
+
+ABANDON ⌀ abandon subtree @d=11 (â=[f3e5])
+
+ABANDON ⌀ abandon subtree @d=11 (â=[d2d4])
+
+ABANDON ⌀ abandon subtree @d=11 (â=[c6d5])
+
+MISS ✗ MISS step=10 a_true=[c6e4] preds=['[f3e5]', '[d2d4]', '[c6d5]']
+
+ABANDON ⌀ abandon subtree @d=10 (â=None)
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=11 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=11 for â=None
+
+SPEC White candidates → ['[e5f7]', '[d2d4]', '[c6d7]']
+
+ACTOR White → [c6e4]
+
+ACTOR White → [b1c3]
+
+SPEC White candidates → ['[c1g5]', '[c2c4]', '[f3e5]']
+
+ACTOR Black → [d6e5]
+
+SPEC White candidates → ['[f3e5]', '[c6e4]', '[d4e5]']
+
+SPEC White candidates → ['[f3g5]', '[f3e5]', '[c6e4]']
+
+ACTOR Black → [b7c6]
+
+SPEC White candidates → ['[b1c3]', '[d2d4]', '[f3g5]']
+
+ACTOR Black → [e8f7]
+
+ACTOR White → [d5e4]
+
+SPEC White candidates → ['[d2d4]', '[f3g5]', '[d5e6]']
+
+SPEC White candidates → ['[d5e6]', '[f3g5]', '[d5f7]', '[d5e6]', '[f3g5]', '[d5f7]']
+
+ACTOR White → [d2d4]
+
+SPEC Black candidates → ['[d6f8]', '[d8e7]', '[d6c5]']
+
+SPEC_RESOLVED ← Speculator @d=11 returned ['[d6f8]', '[d8e7]', '[d6c5]']
+
+ACTOR_LAUNCH → fire Actor @d=12 for â=[d6f8]
+
+SPEC_LAUNCH → fire Speculator @d=12 for â=[d6f8]
+
+ACTOR_LAUNCH → fire Actor @d=12 for â=[d8e7]
+
+SPEC_LAUNCH → fire Speculator @d=12 for â=[d8e7]
+
+ACTOR_LAUNCH → fire Actor @d=12 for â=[d6c5]
+
+SPEC_LAUNCH → fire Speculator @d=12 for â=[d6c5]
+
+ACTOR White → [b1c3]
+
+SPEC White candidates → ['[e4d5]', '[f3e5]', '[d2d4]']
+
+SPEC_RESOLVED ← Speculator @d=12 returned ['[e4d5]', '[f3e5]', '[d2d4]']
+
+ACTOR_LAUNCH → fire Actor @d=13 for â=[e4d5]
+
+SPEC_LAUNCH → fire Speculator @d=13 for â=[e4d5]
+
+ACTOR_LAUNCH → fire Actor @d=13 for â=[f3e5]
+
+SPEC_LAUNCH → fire Speculator @d=13 for â=[f3e5]
+
+ACTOR_LAUNCH → fire Actor @d=13 for â=[d2d4]
+
+SPEC_LAUNCH → fire Speculator @d=13 for â=[d2d4]
+
+ACTOR Black → [e8g8]
+
+ACTOR_RESOLVED ← ROOT Actor @d=11 returned [e8g8]
+
+ABANDON ⌀ abandon subtree @d=12 (â=[d6f8])
+
+ABANDON ⌀ abandon subtree @d=12 (â=[d8e7])
+
+ABANDON ⌀ abandon subtree @d=12 (â=[d6c5])
+
+MISS ✗ MISS step=11 a_true=[e8g8] preds=['[d6f8]', '[d8e7]', '[d6c5]']
+
+ABANDON ⌀ abandon subtree @d=11 (â=None)
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=12 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=12 for â=None
+
+SPEC White candidates → ['[d2d4]', '[b1c3]', '[c2c3]']
+
+ACTOR Black → [e4f6]
+
+SPEC White candidates → ['[f3g5]', '[e4d5]', '[d2d3]']
+
+ACTOR White → [h2h3]
+
+ACTOR White → [c6e4]
+
+SPEC Black candidates → ['[d8e7]', '[h8g8]', '[g7g6]']
+
+SPEC Black candidates → ['[f8e7]', '[e8e7]', '[d8e7]']
+
+ACTOR White → [d5e4]
+
+SPEC Black candidates → ['[f8e7]', '[d8e7]', '[d7d6]']
+
+ACTOR White → [b5c6]
+
+ACTOR White → [f1e1]
+
+SPEC White candidates → ['[e4d5]', '[e4g6]', '[e4f5]']
+
+SPEC_RESOLVED ← Speculator @d=12 returned ['[e4d5]', '[e4g6]', '[e4f5]']
+
+ACTOR_LAUNCH → fire Actor @d=13 for â=[e4d5]
+
+SPEC_LAUNCH → fire Speculator @d=13 for â=[e4d5]
+
+ACTOR_LAUNCH → fire Actor @d=13 for â=[e4g6]
+
+SPEC_LAUNCH → fire Speculator @d=13 for â=[e4g6]
+
+ACTOR_LAUNCH → fire Actor @d=13 for â=[e4f5]
+
+SPEC_LAUNCH → fire Speculator @d=13 for â=[e4f5]
+
+SPEC Black candidates → ['[e5e4]', '[d6c5]', '[e5e4]', '[d6c5]']
+
+SPEC_RESOLVED ← Speculator @d=13 returned ['[e5e4]', '[d6c5]', '[e5e4]']
+
+ACTOR_LAUNCH → fire Actor @d=14 for â=[e5e4]
+
+SPEC_LAUNCH → fire Speculator @d=14 for â=[e5e4]
+
+ACTOR_LAUNCH → fire Actor @d=14 for â=[d6c5]
+
+SPEC_LAUNCH → fire Speculator @d=14 for â=[d6c5]
+
+ACTOR_DEDUP ~ Actor @d=14 reuses sibling (dedup)
+
+SPEC_LAUNCH → fire Speculator @d=14 for â=[e5e4]
+
+ACTOR Black → [c7c6]
+
+SPEC Black candidates → ['[e5e4]', '[d6e7]', '[f7f6]']
+
+SPEC_RESOLVED ← Speculator @d=13 returned ['[e5e4]', '[d6e7]', '[f7f6]']
+
+ACTOR_LAUNCH → fire Actor @d=14 for â=[e5e4]
+
+SPEC_LAUNCH → fire Speculator @d=14 for â=[e5e4]
+
+ACTOR_LAUNCH → fire Actor @d=14 for â=[d6e7]
+
+SPEC_LAUNCH → fire Speculator @d=14 for â=[d6e7]
+
+ACTOR_LAUNCH → fire Actor @d=14 for â=[f7f6]
+
+SPEC_LAUNCH → fire Speculator @d=14 for â=[f7f6]
+
+ACTOR White → [b1c3]
+
+SPEC Black candidates → ['[e5e4]', '[h7h5]', '[g7g5]', '[e5e4]', '[h7h5]', '[g7g5]']
+
+SPEC_RESOLVED ← Speculator @d=13 returned ['[e5e4]', '[h7h5]', '[g7g5]']
+
+ACTOR_LAUNCH → fire Actor @d=14 for â=[e5e4]
+
+SPEC_LAUNCH → fire Speculator @d=14 for â=[e5e4]
+
+ACTOR_LAUNCH → fire Actor @d=14 for â=[h7h5]
+
+SPEC_LAUNCH → fire Speculator @d=14 for â=[h7h5]
+
+ACTOR_LAUNCH → fire Actor @d=14 for â=[g7g5]
+
+SPEC_LAUNCH → fire Speculator @d=14 for â=[g7g5]
+
+ACTOR Black → [f8d6]
+
+SPEC White candidates → ['[d5e6]', '[f3g5]', '[f3e5]', '[d5e6]', '[f3g5]', '[f3e5]']
+
+SPEC_RESOLVED ← Speculator @d=14 returned ['[d5e6]', '[f3g5]', '[f3e5]']
+
+ACTOR_LAUNCH → fire Actor @d=15 for â=[d5e6]
+
+SPEC_LAUNCH → fire Speculator @d=15 for â=[d5e6]
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR Black → [d7d6]
+
+SPEC White candidates → ['[d5f7]', '[d5e6]', '[f3h4]']
+
+SPEC_RESOLVED ← Speculator @d=14 returned ['[d5f7]', '[d5e6]', '[f3h4]']
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+SPEC White candidates → ['[d5e6]', '[f3e5]', '[d2d4]']
+
+SPEC_RESOLVED ← Speculator @d=14 returned ['[d5e6]', '[f3e5]', '[d2d4]']
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR Black → [e5d4]
+
+SPEC White candidates → ['[f3g5]', '[f3e5]', '[f3h4]']
+
+SPEC_RESOLVED ← Speculator @d=14 returned ['[f3g5]', '[f3e5]', '[f3h4]']
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR White → [c6a4]
+
+SPEC White candidates → ['[d2d4]', '[g6f7]', '[g6h7]', '[d2d4]', '[g6f7]', '[g6h7]']
+
+SPEC_RESOLVED ← Speculator @d=14 returned ['[d2d4]', '[g6f7]', '[g6h7]']
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR White → [d2d4]
+
+SPEC White candidates → ['[f3g5]', '[f3e5]', '[b1c3]']
+
+SPEC_RESOLVED ← Speculator @d=14 returned ['[f3g5]', '[f3e5]', '[b1c3]']
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR White → [f1e1]
+
+SPEC White candidates → ['[f5h7]', '[f5g6]', '[f5e6]', '[f5h7]', '[f5g6]', '[f5e6]']
+
+SPEC_RESOLVED ← Speculator @d=14 returned ['[f5h7]', '[f5g6]', '[f5e6]']
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR White → [d4e5]
+
+SPEC White candidates → ['[f5g6]', '[f5d7]', '[h2h3]', '[f5g6]', '[f5d7]', '[h2h3]']
+
+SPEC_RESOLVED ← Speculator @d=14 returned ['[f5g6]', '[f5d7]', '[h2h3]']
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR White → [d5b7]
+
+ACTOR_RESOLVED ← Actor @d=14 returned [d5b7]
+
+ABANDON ⌀ abandon subtree @d=15 (â=[d5f7])
+
+ABANDON ⌀ abandon subtree @d=15 (â=[d5e6])
+
+ABANDON ⌀ abandon subtree @d=15 (â=[f3h4])
+
+SPEC White candidates → ['[f5e4]', '[d2d4]', '[f5g6]']
+
+SPEC_RESOLVED ← Speculator @d=14 returned ['[f5e4]', '[d2d4]', '[f5g6]']
+
+ACTOR_LAUNCH → fire Actor @d=15 for â=[f5e4]
+
+SPEC_LAUNCH → fire Speculator @d=15 for â=[f5e4]
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=15 DEFERRED (budget full)
+
+ACTOR Black → [c7c6]
+
+ACTOR_RESOLVED ← Actor @d=13 returned [c7c6]
+
+ABANDON ⌀ abandon subtree @d=14 (â=[e5e4])
+
+ABANDON ⌀ abandon subtree @d=14 (â=[d6c5])
+
+ABANDON ⌀ abandon subtree @d=14 (â=[e5e4])
+
+SPEC Black candidates → ['[d8e8]', '[d6e7]', '[f8e8]']
+
+ACTOR White → [d5e4]
+
+ACTOR White → [c6e4]
+
+SPEC Black candidates → ['[d6e7]', '[g5g4]', '[d6c5]']
+
+SPEC_RESOLVED ← Speculator @d=15 returned ['[d6e7]', '[g5g4]', '[d6c5]']
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[d6e7]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[d6e7]
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[g5g4]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[g5g4]
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[d6c5]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[d6c5]
+
+SPEC White candidates → ['[f3e5]', '[f3g5]', '[e4d5]']
+
+SPEC_RESOLVED ← Speculator @d=16 returned ['[f3e5]', '[f3g5]', '[e4d5]']
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR White → [f3e5]
+
+ACTOR_RESOLVED ← Actor @d=14 returned [f3e5]
+
+ABANDON ⌀ abandon subtree @d=15 (â=[d2d4])
+
+ABANDON ⌀ abandon subtree @d=15 (â=[g6f7])
+
+ABANDON ⌀ abandon subtree @d=15 (â=[g6h7])
+
+SPEC White candidates → ['[e4d5]', '[f3g5]', '[d1e2]']
+
+SPEC_RESOLVED ← Speculator @d=16 returned ['[e4d5]', '[f3g5]', '[d1e2]']
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[e4d5]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[e4d5]
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR White → [d2d4]
+
+ACTOR_RESOLVED ← Actor @d=16 returned [d2d4]
+
+ABANDON ⌀ abandon subtree @d=17 (â=[f3e5])
+
+ABANDON ⌀ abandon subtree @d=17 (â=[f3g5])
+
+ABANDON ⌀ abandon subtree @d=17 (â=[e4d5])
+
+SPEC White candidates → ['[f3g5]', '[e4d5]', '[e4b7]']
+
+SPEC_RESOLVED ← Speculator @d=16 returned ['[f3g5]', '[e4d5]', '[e4b7]']
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[f3g5]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[f3g5]
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR White → [d2d4]
+
+ACTOR_RESOLVED ← Actor @d=14 returned [d2d4]
+
+ABANDON ⌀ abandon subtree @d=15 (â=[f5g6])
+
+ABANDON ⌀ abandon subtree @d=15 (â=[f5d7])
+
+ABANDON ⌀ abandon subtree @d=15 (â=[h2h3])
+
+ACTOR White → [d2d4]
+
+ACTOR_RESOLVED ← Actor @d=16 returned [d2d4]
+
+ABANDON ⌀ abandon subtree @d=17 (â=[e4d5])
+
+ABANDON ⌀ abandon subtree @d=17 (â=[f3g5])
+
+ABANDON ⌀ abandon subtree @d=17 (â=[d1e2])
+
+SPEC Black candidates → ['[g4f3]', '[d8e7]', '[e5e4]']
+
+SPEC Black candidates → ['[g8h8]', '[c5e7]', '[d8e8]']
+
+SPEC_RESOLVED ← Speculator @d=17 returned ['[g8h8]', '[c5e7]', '[d8e8]']
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[g8h8]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[g8h8]
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[c5e7]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[c5e7]
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[d8e8]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[d8e8]
+
+ACTOR White → [d2d4]
+
+SPEC White candidates → ['[d1h5]', '[d1g4]', '[d1f3]', '[d1h5]', '[d1g4]', '[d1f3]']
+
+SPEC_RESOLVED ← Speculator @d=18 returned ['[d1h5]', '[d1g4]', '[d1f3]']
+
+ACTOR_DEFERRED ~ Actor @d=19 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=19 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=19 DEFERRED (budget full)
+
+ACTOR White → [d2d4]
+
+ACTOR_RESOLVED ← Actor @d=16 returned [d2d4]
+
+ABANDON ⌀ abandon subtree @d=17 (â=[f3g5])
+
+ABANDON ⌀ abandon subtree @d=17 (â=[e4d5])
+
+ABANDON ⌀ abandon subtree @d=17 (â=[e4b7])
+
+SPEC White candidates → ['[g5e6]', '[e4h7]', '[d1g4]']
+
+ACTOR Black → [f7g6]
+
+ACTOR_RESOLVED ← Actor @d=13 returned [f7g6]
+
+ABANDON ⌀ abandon subtree @d=14 (â=[e5e4])
+
+ABANDON ⌀ abandon subtree @d=14 (â=[d6e7])
+
+ABANDON ⌀ abandon subtree @d=14 (â=[f7f6])
+
+ACTOR White → [f3e5]
+
+ACTOR_RESOLVED ← ROOT Actor @d=12 returned [f3e5]
+
+ABANDON ⌀ abandon subtree @d=13 (â=[e4d5])
+
+ABANDON ⌀ abandon subtree @d=13 (â=[e4g6])
+
+ABANDON ⌀ abandon subtree @d=13 (â=[e4f5])
+
+MISS ✗ MISS step=12 a_true=[f3e5] preds=['[e4d5]', '[e4g6]', '[e4f5]']
+
+ABANDON ⌀ abandon subtree @d=12 (â=None)
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=13 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=13 for â=None
+
+SPEC White candidates → ['[g5h7]', '[g5f7]', '[g5e6]']
+
+SPEC Black candidates → ['[d8e8]', '[d8g5]', '[f8e8]']
+
+SPEC_RESOLVED ← Speculator @d=13 returned ['[d8e8]', '[d8g5]', '[f8e8]']
+
+ACTOR_LAUNCH → fire Actor @d=14 for â=[d8e8]
+
+SPEC_LAUNCH → fire Speculator @d=14 for â=[d8e8]
+
+ACTOR_LAUNCH → fire Actor @d=14 for â=[d8g5]
+
+SPEC_LAUNCH → fire Speculator @d=14 for â=[d8g5]
+
+ACTOR_LAUNCH → fire Actor @d=14 for â=[f8e8]
+
+SPEC_LAUNCH → fire Speculator @d=14 for â=[f8e8]
+
+ACTOR Black → [d7e6]
+
+SPEC White candidates → ['[e5f7]', '[e5g6]', '[d2d4]']
+
+SPEC_RESOLVED ← Speculator @d=14 returned ['[e5f7]', '[e5g6]', '[d2d4]']
+
+ACTOR_LAUNCH → fire Actor @d=15 for â=[e5f7]
+
+SPEC_LAUNCH → fire Speculator @d=15 for â=[e5f7]
+
+ACTOR_LAUNCH → fire Actor @d=15 for â=[e5g6]
+
+SPEC_LAUNCH → fire Speculator @d=15 for â=[e5g6]
+
+ACTOR_LAUNCH → fire Actor @d=15 for â=[d2d4]
+
+SPEC_LAUNCH → fire Speculator @d=15 for â=[d2d4]
+
+ACTOR Black → [d6e7]
+
+ACTOR White → [f5e4]
+
+SPEC White candidates → ['[e5f7]', '[e4h7]', '[d1h5]']
+
+SPEC_RESOLVED ← Speculator @d=14 returned ['[e5f7]', '[e4h7]', '[d1h5]']
+
+ACTOR_LAUNCH → fire Actor @d=15 for â=[e5f7]
+
+SPEC_LAUNCH → fire Speculator @d=15 for â=[e5f7]
+
+ACTOR_LAUNCH → fire Actor @d=15 for â=[e4h7]
+
+SPEC_LAUNCH → fire Speculator @d=15 for â=[e4h7]
+
+ACTOR_LAUNCH → fire Actor @d=15 for â=[d1h5]
+
+SPEC_LAUNCH → fire Speculator @d=15 for â=[d1h5]
+
+SPEC White candidates → ['[d2d4]', '[e5f7]', '[b1c3]']
+
+SPEC_RESOLVED ← Speculator @d=14 returned ['[d2d4]', '[e5f7]', '[b1c3]']
+
+ACTOR_LAUNCH → fire Actor @d=15 for â=[d2d4]
+
+SPEC_LAUNCH → fire Speculator @d=15 for â=[d2d4]
+
+ACTOR_LAUNCH → fire Actor @d=15 for â=[e5f7]
+
+SPEC_LAUNCH → fire Speculator @d=15 for â=[e5f7]
+
+ACTOR_LAUNCH → fire Actor @d=15 for â=[b1c3]
+
+SPEC_LAUNCH → fire Speculator @d=15 for â=[b1c3]
+
+ACTOR White → [e4f5]
+
+ACTOR_RESOLVED ← Actor @d=14 returned [e4f5]
+
+ABANDON ⌀ abandon subtree @d=15 (â=[e5f7])
+
+ABANDON ⌀ abandon subtree @d=15 (â=[e4h7])
+
+ABANDON ⌀ abandon subtree @d=15 (â=[d1h5])
+
+SPEC Black candidates → ['[d6e5]', '[e8f7]', '[d6c5]', '[d6e5]', '[e8f7]', '[d6c5]']
+
+SPEC_RESOLVED ← Speculator @d=15 returned ['[d6e5]', '[e8f7]', '[d6c5]']
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[d6e5]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[d6e5]
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[e8f7]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[e8f7]
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[d6c5]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[d6c5]
+
+ACTOR White → [g5h7]
+
+SPEC Black candidates → ['[e8e4]', '[d6e7]', '[a8b8]']
+
+SPEC_RESOLVED ← Speculator @d=15 returned ['[e8e4]', '[d6e7]', '[a8b8]']
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[e8e4]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[e8e4]
+
+ACTOR_DEFERRED ~ Actor @d=16 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=16 DEFERRED (budget full)
+
+ACTOR Black → [f8f7]
+
+ACTOR_RESOLVED ← Actor @d=15 returned [f8f7]
+
+ABANDON ⌀ abandon subtree @d=16 (â=[d6e5])
+
+ABANDON ⌀ abandon subtree @d=16 (â=[e8f7])
+
+ABANDON ⌀ abandon subtree @d=16 (â=[d6c5])
+
+SPEC Black candidates → ['[d6e5]', '[e8d8]', '[d6e7]']
+
+SPEC_RESOLVED ← Speculator @d=15 returned ['[d6e5]', '[e8d8]', '[d6e7]']
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[d6e5]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[d6e5]
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[e8d8]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[e8d8]
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[d6e7]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[d6e7]
+
+ACTOR White → [d2d4]
+
+SPEC Black candidates → ['[f8e8]', '[d6e7]', '[g5e7]']
+
+ACTOR White → [d2d4]
+
+ACTOR_RESOLVED ← Actor @d=14 returned [d2d4]
+
+ABANDON ⌀ abandon subtree @d=15 (â=[e5f7])
+
+ABANDON ⌀ abandon subtree @d=15 (â=[b1c3])
+
+ACTOR Black → [g4f3]
+
+ACTOR Black → [f7g6]
+
+ACTOR_RESOLVED ← Actor @d=15 returned [f7g6]
+
+ABANDON ⌀ abandon subtree @d=16 (â=[e8e4])
+
+ABANDON ⌀ abandon subtree @d=16 (â=[d6e7])
+
+ABANDON ⌀ abandon subtree @d=16 (â=[a8b8])
+
+SPEC Black candidates → ['[g5g6]', '[g5h5]', '[f7f5]']
+
+ACTOR White → [g5e6]
+
+SPEC Black candidates → ['[g8h7]', '[g8h8]']
+
+ACTOR White → [b1c3]
+
+ACTOR_RESOLVED ← Actor @d=14 returned [b1c3]
+
+ABANDON ⌀ abandon subtree @d=15 (â=[e5f7])
+
+ABANDON ⌀ abandon subtree @d=15 (â=[e5g6])
+
+ABANDON ⌀ abandon subtree @d=15 (â=[d2d4])
+
+SPEC Black candidates → ['[d6e5]', '[d8e7]', '[g7g6]']
+
+SPEC_RESOLVED ← Speculator @d=15 returned ['[d6e5]', '[d8e7]', '[g7g6]']
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[d6e5]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[d6e5]
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[d8e7]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[d8e7]
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[g7g6]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[g7g6]
+
+SPEC Black candidates → ['[d6e5]', '[d8e7]', '[d8f6]', '[d6e5]', '[d8e7]', '[d8f6]']
+
+SPEC Black candidates → ['[g8h8]', '[h7h6]', '[g7g5]']
+
+ACTOR White → [d2d4]
+
+SPEC White candidates → ['[d2d4]', '[f7g5]', '[d1h5]']
+
+ACTOR Black → [c7c5]
+
+SPEC White candidates → ['[e4h7]', '[e4d5]', '[d1h5]']
+
+ACTOR Black → [h7h5]
+
+SPEC White candidates → ['[d1h5]', '[d1g4]', '[f7h8]']
+
+ACTOR Black → [g5h5]
+
+SPEC White candidates → ['[d1h5]', '[d1g4]', '[d1f3]']
+
+ACTOR Black → [g5e7]
+
+SPEC White candidates → ['[e4d5]', '[d4e5]', '[e4h7]']
+
+ACTOR White → [d2d4]
+
+SPEC White candidates → ['[e5f7]', '[d1h5]', '[d4d5]']
+
+ACTOR Black → [d6e5]
+
+SPEC White candidates → ['[e5f7]', '[d4d5]', '[d1h5]']
+
+ACTOR Black → [d6e5]
+
+ACTOR_RESOLVED ← Actor @d=15 returned [d6e5]
+
+ABANDON ⌀ abandon subtree @d=16 (â=[d8e7])
+
+ABANDON ⌀ abandon subtree @d=16 (â=[g7g6])
+
+SPEC White candidates → ['[e4d5]', '[e4f5]', '[d1h5]', '[e4d5]', '[e4f5]', '[d1h5]']
+
+SPEC_RESOLVED ← Speculator @d=16 returned ['[e4d5]', '[e4f5]', '[d1h5]']
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[e4d5]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[e4d5]
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[e4f5]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[e4f5]
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[d1h5]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[d1h5]
+
+ACTOR White → [d4e5]
+
+SPEC White candidates → ['[d1g4]', '[d1h5]', '[d1f3]']
+
+ACTOR Black → [d8e7]
+
+SPEC White candidates → ['[e5f7]', '[e5d7]', '[e5g6]']
+
+ACTOR Black → [g8h8]
+
+SPEC Black candidates → ['[e5f6]', '[g7g6]', '[a7a5]']
+
+SPEC_RESOLVED ← Speculator @d=17 returned ['[e5f6]', '[g7g6]', '[a7a5]']
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[e5f6]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[e5f6]
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[g7g6]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[g7g6]
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[a7a5]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[a7a5]
+
+ACTOR White → [e4h7]
+
+SPEC Black candidates → ['[e5f6]', '[d7d5]', '[h7h6]']
+
+SPEC_RESOLVED ← Speculator @d=17 returned ['[e5f6]', '[d7d5]', '[h7h6]']
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[e5f6]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[e5f6]
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[d7d5]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[d7d5]
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[h7h6]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[h7h6]
+
+ACTOR White → [e5f7]
+
+ACTOR Black → [d6e5]
+
+ACTOR_RESOLVED ← ROOT Actor @d=13 returned [d6e5]
+
+ABANDON ⌀ abandon subtree @d=14 (â=[d8e8])
+
+ABANDON ⌀ abandon subtree @d=14 (â=[d8g5])
+
+ABANDON ⌀ abandon subtree @d=14 (â=[f8e8])
+
+MISS ✗ MISS step=13 a_true=[d6e5] preds=['[d8e8]', '[d8g5]', '[f8e8]']
+
+ABANDON ⌀ abandon subtree @d=13 (â=None)
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=14 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=14 for â=None
+
+SPEC Black candidates → ['[e5d6]', '[d8e7]', '[d7d6]']
+
+SPEC White candidates → ['[d5e6]', '[d5c6]', '[d5e4]', '[d5e6]', '[d5c6]', '[d5e4]']
+
+ACTOR White → [d4e5]
+
+SPEC White candidates → ['[d5e6]', '[d4e5]', '[b1c3]']
+
+ACTOR White → [d4e5]
+
+SPEC White candidates → ['[d5e6]', '[d5f7]', '[d5c4]']
+
+ACTOR White → [c1f4]
+
+ACTOR Black → [d7d5]
+
+SPEC White candidates → ['[d4d5]', '[d1h5]', '[f5h7]']
+
+ACTOR White → [g2g3]
+
+ACTOR White → [d4e5]
+
+SPEC White candidates → ['[d1h5]', '[c1h6]', '[d1g4]']
+
+SPEC White candidates → ['[f5h7]', '[f5g6]', '[f5h3]', '[f5h7]', '[f5g6]', '[f5h3]']
+
+ACTOR White → [d4e5]
+
+ACTOR Black → [d6c5]
+
+SPEC White candidates → ['[d2d4]', '[f2f4]', '[b1c3]']
+
+SPEC_RESOLVED ← Speculator @d=14 returned ['[d2d4]', '[f2f4]', '[b1c3]']
+
+ACTOR_LAUNCH → fire Actor @d=15 for â=[d2d4]
+
+SPEC_LAUNCH → fire Speculator @d=15 for â=[d2d4]
+
+ACTOR_LAUNCH → fire Actor @d=15 for â=[f2f4]
+
+SPEC_LAUNCH → fire Speculator @d=15 for â=[f2f4]
+
+ACTOR_LAUNCH → fire Actor @d=15 for â=[b1c3]
+
+SPEC_LAUNCH → fire Speculator @d=15 for â=[b1c3]
+
+ACTOR White → [d1h5]
+
+SPEC Black candidates → ['[d8e8]', '[a7a5]', '[b7b5]']
+
+SPEC_RESOLVED ← Speculator @d=15 returned ['[d8e8]', '[a7a5]', '[b7b5]']
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[d8e8]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[d8e8]
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[a7a5]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[a7a5]
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[b7b5]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[b7b5]
+
+SPEC Black candidates → ['[e5f6]', '[d8e8]', '[h7h6]']
+
+SPEC_RESOLVED ← Speculator @d=15 returned ['[e5f6]', '[d8e8]', '[h7h6]']
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[e5f6]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[e5f6]
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[d8e8]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[d8e8]
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[h7h6]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[h7h6]
+
+ACTOR White → [g6e4]
+
+ACTOR White → [d5f7]
+
+SPEC White candidates → ['[d4e5]', '[d1h5]']
+
+SPEC_RESOLVED ← Speculator @d=16 returned ['[d4e5]', '[d1h5]']
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[d4e5]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[d4e5]
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[d1h5]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[d1h5]
+
+SPEC Black candidates → ['[d8e8]', '[d8f6]', '[e5g3]']
+
+SPEC_RESOLVED ← Speculator @d=15 returned ['[d8e8]', '[d8f6]', '[e5g3]']
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[d8e8]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[d8e8]
+
+ACTOR_DEFERRED ~ Actor @d=16 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=16 DEFERRED (budget full)
+
+SPEC White candidates → ['[d1h5]', '[d1g4]', '[d4e5]', '[d1h5]', '[d1g4]', '[d4e5]']
+
+SPEC_RESOLVED ← Speculator @d=16 returned ['[d1h5]', '[d1g4]', '[d4e5]']
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR White → [c1g5]
+
+ACTOR Black → [c7c5]
+
+SPEC White candidates → ['[d1h5]', '[d1g4]', '[c1f4]', '[d1h5]', '[d1g4]', '[c1f4]']
+
+SPEC_RESOLVED ← Speculator @d=16 returned ['[d1h5]', '[d1g4]', '[c1f4]']
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+SPEC White candidates → ['[b1c3]', '[d2d4]']
+
+SPEC_RESOLVED ← Speculator @d=16 returned ['[b1c3]', '[d2d4]']
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR White → [d4e5]
+
+ACTOR_RESOLVED ← Actor @d=16 returned [d4e5]
+
+ABANDON ⌀ abandon subtree @d=17 (â=[d1h5])
+
+ABANDON ⌀ abandon subtree @d=17 (â=[d1g4])
+
+SPEC White candidates → ['[e4h7]', '[d1h5]', '[e4g6]']
+
+SPEC_RESOLVED ← Speculator @d=16 returned ['[e4h7]', '[d1h5]', '[e4g6]']
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[e4h7]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[e4h7]
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=17 DEFERRED (budget full)
+
+ACTOR White → [b1c3]
+
+ACTOR White → [g1h1]
+
+ACTOR_RESOLVED ← ROOT Actor @d=14 returned [g1h1]
+
+ABANDON ⌀ abandon subtree @d=15 (â=[d2d4])
+
+ABANDON ⌀ abandon subtree @d=15 (â=[f2f4])
+
+ABANDON ⌀ abandon subtree @d=15 (â=[b1c3])
+
+MISS ✗ MISS step=14 a_true=[g1h1] preds=['[d2d4]', '[f2f4]', '[b1c3]']
+
+ABANDON ⌀ abandon subtree @d=14 (â=None)
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=15 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=15 for â=None
+
+SPEC White candidates → ['[g1f2]', '[f1f3]', '[d2d3]']
+
+ACTOR White → [f4e5]
+
+ACTOR Black → [f8e8]
+
+ACTOR White → [c1f4]
+
+SPEC Black candidates → ['[d7d5]', '[g7g6]', '[e8e7]']
+
+SPEC Black candidates → ['[e5f6]', '[e5d6]', '[g8h8]']
+
+SPEC White candidates → ['[c3d5]', '[d2d4]', '[h2h3]']
+
+ACTOR White → [d4e5]
+
+ACTOR Black → [f8e8]
+
+SPEC Black candidates → ['[e5d4]', '[e5f4]']
+
+SPEC_RESOLVED ← Speculator @d=15 returned ['[e5d4]', '[e5f4]']
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[e5d4]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[e5d4]
+
+ACTOR_LAUNCH → fire Actor @d=16 for â=[e5f4]
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=[e5f4]
+
+ACTOR White → [c2c3]
+
+SPEC White candidates → ['[e4c6]', '[e4d5]', '[e4g6]', '[e4c6]', '[e4d5]', '[e4g6]']
+
+SPEC_RESOLVED ← Speculator @d=16 returned ['[e4c6]', '[e4d5]', '[e4g6]']
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[e4c6]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[e4c6]
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[e4d5]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[e4d5]
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[e4g6]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[e4g6]
+
+SPEC Black candidates → ['[g8h7]', '[g8h8]', '[g8h7]']
+
+SPEC White candidates → ['[d2d4]', '[d1h5]', '[b1c3]']
+
+SPEC_RESOLVED ← Speculator @d=16 returned ['[d2d4]', '[d1h5]', '[b1c3]']
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[d2d4]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[d2d4]
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[d1h5]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[d1h5]
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[b1c3]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[b1c3]
+
+ACTOR Black → [d7d5]
+
+SPEC Black candidates → ['[d4e5]', '[d8e8]', '[d8f6]']
+
+SPEC_RESOLVED ← Speculator @d=17 returned ['[d4e5]', '[d8e8]', '[d8f6]']
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[d4e5]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[d4e5]
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[d8e8]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[d8e8]
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[d8f6]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[d8f6]
+
+ACTOR Black → [d7d6]
+
+SPEC Black candidates → ['[d4e5]', '[d4c5]', '[d8e8]']
+
+SPEC_RESOLVED ← Speculator @d=17 returned ['[d4e5]', '[d4c5]', '[d8e8]']
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[d4e5]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[d4e5]
+
+ACTOR_DEFERRED ~ Actor @d=18 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=18 DEFERRED (budget full)
+
+ACTOR Black → [d7d5]
+
+ACTOR White → [d2d4]
+
+SPEC Black candidates → ['[d4e5]', '[d4f6]', '[d8e8]']
+
+SPEC_RESOLVED ← Speculator @d=17 returned ['[d4e5]', '[d4f6]', '[d8e8]']
+
+ACTOR_DEFERRED ~ Actor @d=18 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=18 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=18 DEFERRED (budget full)
+
+ACTOR Black → [g8h7]
+
+SPEC Black candidates → ['[d8e8]', '[d7d6]', '[f4h6]']
+
+SPEC_RESOLVED ← Speculator @d=17 returned ['[d8e8]', '[d7d6]', '[f4h6]']
+
+ACTOR_DEFERRED ~ Actor @d=18 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=18 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=18 DEFERRED (budget full)
+
+ACTOR Black → [b7c6]
+
+ACTOR_RESOLVED ← Actor @d=17 returned [b7c6]
+
+ABANDON ⌀ abandon subtree @d=18 (â=[d4e5])
+
+ABANDON ⌀ abandon subtree @d=18 (â=[d8e8])
+
+ABANDON ⌀ abandon subtree @d=18 (â=[d8f6])
+
+SPEC Black candidates → ['[d8e8]', '[d8f6]', '[f7f5]']
+
+SPEC_RESOLVED ← Speculator @d=17 returned ['[d8e8]', '[d8f6]', '[f7f5]']
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[d8e8]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[d8e8]
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[d8f6]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[d8f6]
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[f7f5]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[f7f5]
+
+SPEC Black candidates → ['[d8g5]', '[f8e8]', '[d8e8]']
+
+SPEC_RESOLVED ← Speculator @d=17 returned ['[d8g5]', '[f8e8]', '[d8e8]']
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[d8g5]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[d8g5]
+
+ACTOR_DEFERRED ~ Actor @d=18 DEFERRED (budget full)
+
+ACTOR_DEFERRED ~ Actor @d=18 DEFERRED (budget full)
+
+ACTOR Black → [f7g6]
+
+ACTOR_RESOLVED ← Actor @d=17 returned [f7g6]
+
+ABANDON ⌀ abandon subtree @d=18 (â=[d4e5])
+
+ABANDON ⌀ abandon subtree @d=18 (â=[d4f6])
+
+ABANDON ⌀ abandon subtree @d=18 (â=[d8e8])
+
+ACTOR White → [h2h4]
+
+ACTOR_RESOLVED ← Actor @d=16 returned [h2h4]
+
+ABANDON ⌀ abandon subtree @d=17 (â=[d2d4])
+
+ABANDON ⌀ abandon subtree @d=17 (â=[d1h5])
+
+ABANDON ⌀ abandon subtree @d=17 (â=[b1c3])
+
+SPEC White candidates → ['[c6e4]', '[d2d4]', '[f2f4]']
+
+SPEC White candidates → ['[c6e4]', '[h1g1]', '[h2h3]']
+
+ACTOR White → [d2d4]
+
+ACTOR White → [b1c3]
+
+ACTOR_RESOLVED ← Actor @d=16 returned [b1c3]
+
+ABANDON ⌀ abandon subtree @d=17 (â=[e4c6])
+
+ABANDON ⌀ abandon subtree @d=17 (â=[e4d5])
+
+ABANDON ⌀ abandon subtree @d=17 (â=[e4g6])
+
+SPEC White candidates → ['[c6e4]', '[c6d5]', '[c6a4]']
+
+SPEC White candidates → ['[d5f7]', '[d5e6]', '[d5c6]']
+
+ACTOR Black → [f7f5]
+
+ACTOR_RESOLVED ← ROOT Actor @d=15 returned [f7f5]
+
+ABANDON ⌀ abandon subtree @d=16 (â=[e5d4])
+
+ABANDON ⌀ abandon subtree @d=16 (â=[e5f4])
+
+MISS ✗ MISS step=15 a_true=[f7f5] preds=['[e5d4]', '[e5f4]']
+
+ABANDON ⌀ abandon subtree @d=15 (â=None)
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=16 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=16 for â=None
+
+ACTOR Black → [d7d6]
+
+SPEC White candidates → ['[h5h7]', '[h5g6]', '[h5g5]', '[h5h7]', '[h5g6]', '[h5g5]', '[h5h7]', '[h5g6]', '[h5g5]']
+
+SPEC White candidates → ['[e4f5]', '[e4d5]', '[e4f3]', '[e4f5]', '[e4d5]', '[e4f3]']
+
+ACTOR Black → [g7g6]
+
+SPEC White candidates → ['[h5e8]', '[h5d1]', '[e4b7]']
+
+ACTOR Black → [d8h4]
+
+ACTOR White → [c6d7]
+
+ACTOR White → [b1c3]
+
+SPEC White candidates → ['[d1h5]', '[c3d5]', '[e4d5]']
+
+SPEC White candidates → ['[e4d5]', '[e4c6]', '[e4b7]', '[e4d5]', '[e4c6]', '[e4b7]', '[e4d5]', '[e4c6]', '[e4b7]']
+
+SPEC_RESOLVED ← Speculator @d=16 returned ['[e4d5]', '[e4c6]', '[e4b7]']
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[e4d5]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[e4d5]
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[e4c6]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[e4c6]
+
+ACTOR_LAUNCH → fire Actor @d=17 for â=[e4b7]
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=[e4b7]
+
+SPEC Black candidates → ['[g8h8]', '[f8f7]', '[g8h8]']
+
+SPEC_RESOLVED ← Speculator @d=17 returned ['[g8h8]', '[f8f7]', '[g8h8]']
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[g8h8]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[g8h8]
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[f8f7]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[f8f7]
+
+ACTOR_DEDUP ~ Actor @d=18 reuses sibling (dedup)
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[g8h8]
+
+ACTOR Black → [g8h8]
+
+ACTOR_RESOLVED ← Actor @d=17 returned [g8h8]
+
+ABANDON ⌀ abandon subtree @d=18 (â=[f8f7])
+
+ABANDON ⌀ abandon subtree @d=18 (â=[g8h8])
+
+SPEC Black candidates → ['[d8g5]', '[d8e7]']
+
+SPEC_RESOLVED ← Speculator @d=17 returned ['[d8g5]', '[d8e7]']
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[d8g5]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[d8g5]
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[d8e7]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[d8e7]
+
+ACTOR White → [e4a8]
+
+ACTOR Black → [d7c6]
+
+ACTOR_RESOLVED ← Actor @d=17 returned [d7c6]
+
+ABANDON ⌀ abandon subtree @d=18 (â=[d8g5])
+
+ABANDON ⌀ abandon subtree @d=18 (â=[d8e7])
+
+ACTOR White → [c3d5]
+
+SPEC Black candidates → ['[g8h8]', '[h7h6]', '[a7a5]']
+
+SPEC_RESOLVED ← Speculator @d=17 returned ['[g8h8]', '[h7h6]', '[a7a5]']
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[g8h8]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[g8h8]
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[h7h6]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[h7h6]
+
+ACTOR_LAUNCH → fire Actor @d=18 for â=[a7a5]
+
+SPEC_LAUNCH → fire Speculator @d=18 for â=[a7a5]
+
+ACTOR Black → [d8e7]
+
+ACTOR_ERROR ! Actor error @d=18: Actor failed to produce a valid move after retries
+
+ABANDON ⌀ abandon subtree @d=18 (â=[g8h8])
+
+ACTOR_ERROR ! Actor error @d=18: Actor failed to produce a valid move after retries
+
+ABANDON ⌀ abandon subtree @d=18 (â=[h7h6])
+
+ACTOR_ERROR ! Actor error @d=18: Actor failed to produce a valid move after retries
+
+ABANDON ⌀ abandon subtree @d=18 (â=[a7a5])
+
+SPEC White candidates → ['[d5f7]', '[d5e6]', '[d5g8]']
+
+SPEC_RESOLVED ← Speculator @d=18 returned ['[d5f7]', '[d5e6]', '[d5g8]']
+
+ACTOR_LAUNCH → fire Actor @d=19 for â=[d5f7]
+
+SPEC_LAUNCH → fire Speculator @d=19 for â=[d5f7]
+
+ACTOR_LAUNCH → fire Actor @d=19 for â=[d5e6]
+
+SPEC_LAUNCH → fire Speculator @d=19 for â=[d5e6]
+
+ACTOR_LAUNCH → fire Actor @d=19 for â=[d5g8]
+
+SPEC_LAUNCH → fire Speculator @d=19 for â=[d5g8]
+
+ACTOR_ERROR ! Actor error @d=19: Actor failed to produce a valid move after retries
+
+ABANDON ⌀ abandon subtree @d=19 (â=[d5e6])
+
+ACTOR_ERROR ! Actor error @d=19: Actor failed to produce a valid move after retries
+
+ABANDON ⌀ abandon subtree @d=19 (â=[d5f7])
+
+ACTOR_ERROR ! Actor error @d=19: Actor failed to produce a valid move after retries
+
+ABANDON ⌀ abandon subtree @d=19 (â=[d5g8])
+
+ACTOR White → [d2d4]
+
+ACTOR_RESOLVED ← ROOT Actor @d=16 returned [d2d4]
+
+ABANDON ⌀ abandon subtree @d=17 (â=[e4d5])
+
+ABANDON ⌀ abandon subtree @d=17 (â=[e4c6])
+
+ABANDON ⌀ abandon subtree @d=17 (â=[e4b7])
+
+MISS ✗ MISS step=16 a_true=[d2d4] preds=['[e4d5]', '[e4c6]', '[e4b7]']
+
+ABANDON ⌀ abandon subtree @d=16 (â=None)
+
+ACTOR_LAUNCH_FORCE → fire Actor @d=17 (root/force)
+
+SPEC_LAUNCH → fire Speculator @d=17 for â=None
+
+ACTOR_ERROR ! Actor error @d=17: Actor failed to produce a valid move after retries
+
+ACTOR White → [b1c3]
+
+ACTOR White → [c6f3]
+
+ACTOR White → [d2d4]
+
+ACTOR White → [h5h6]
+
+ACTOR White → [b1c3]
+

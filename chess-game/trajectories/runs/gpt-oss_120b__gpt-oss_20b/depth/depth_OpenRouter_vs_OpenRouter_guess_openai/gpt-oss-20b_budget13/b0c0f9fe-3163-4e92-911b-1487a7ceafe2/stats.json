@@ -1,0 +1,109 @@
+{
+    "hits": 11,
+    "cascaded_hits": 0,
+    "misses": 19,
+    "actor_launches": 188,
+    "actor_dedup_reuse": 3,
+    "actor_deferred": 8,
+    "actor_promoted_launch": 19,
+    "speculator_launches": 191,
+    "max_inflight_actors_observed": 13,
+    "max_tree_nodes": 20,
+    "max_tree_depth": 30,
+    "max_cascade_run_length": 1,
+    "llm_usage": {
+        "actor": {
+            "input_tokens": 90869,
+            "output_tokens": 140836,
+            "total_tokens": 231705,
+            "guess_llm_invocations": 192,
+            "provider_cost": 0.069744595,
+            "by_model": {
+                "openai/gpt-oss-120b": {
+                    "input_tokens": 90869,
+                    "output_tokens": 140836,
+                    "total_tokens": 231705,
+                    "guess_llm_invocations": 192,
+                    "provider_cost": 0.069744595
+                }
+            }
+        },
+        "speculator": {
+            "input_tokens": 120727,
+            "output_tokens": 86659,
+            "total_tokens": 207386,
+            "guess_llm_invocations": 191,
+            "provider_cost": 0.02202572,
+            "by_model": {
+                "openai/gpt-oss-20b": {
+                    "input_tokens": 120727,
+                    "output_tokens": 86659,
+                    "total_tokens": 207386,
+                    "guess_llm_invocations": 191,
+                    "provider_cost": 0.02202572
+                }
+            }
+        },
+        "combined": {
+            "input_tokens": 211596,
+            "output_tokens": 227495,
+            "total_tokens": 439091,
+            "guess_llm_invocations": 383,
+            "provider_cost": 0.091770315,
+            "by_model": {
+                "openai/gpt-oss-120b": {
+                    "input_tokens": 90869,
+                    "output_tokens": 140836,
+                    "total_tokens": 231705,
+                    "guess_llm_invocations": 192,
+                    "provider_cost": 0.069744595
+                },
+                "openai/gpt-oss-20b": {
+                    "input_tokens": 120727,
+                    "output_tokens": 86659,
+                    "total_tokens": 207386,
+                    "guess_llm_invocations": 191,
+                    "provider_cost": 0.02202572
+                }
+            }
+        },
+        "cost": {
+            "provider_reported": {
+                "currency": "USD",
+                "actor": 0.069744595,
+                "speculator": 0.02202572,
+                "combined": 0.091770315,
+                "notes": "OpenRouter returns per-request billed cost in usage.cost. OpenAI does not expose per-request cost in the response; those calls contribute 0 here unless routed via OpenRouter."
+            },
+            "actor": {
+                "currency": "USD",
+                "cost_total": null,
+                "cost_by_model": {},
+                "missing_pricing_for_models": [
+                    "openai/gpt-oss-120b"
+                ],
+                "pricing_units": "per_1m_tokens"
+            },
+            "speculator": {
+                "currency": "USD",
+                "cost_total": null,
+                "cost_by_model": {},
+                "missing_pricing_for_models": [
+                    "openai/gpt-oss-20b"
+                ],
+                "pricing_units": "per_1m_tokens"
+            },
+            "combined": {
+                "currency": "USD",
+                "cost_total": null,
+                "cost_by_model": {},
+                "missing_pricing_for_models": [
+                    "openai/gpt-oss-120b",
+                    "openai/gpt-oss-20b"
+                ],
+                "pricing_units": "per_1m_tokens"
+            }
+        },
+        "notes": "All LLM calls issued during the run, including speculative branches later pruned or abandoned. Actor dedup shares one async task \u2014 usage is counted once per completed call_guess_llm. Cost is computed from config pricing if provided."
+    }
+}

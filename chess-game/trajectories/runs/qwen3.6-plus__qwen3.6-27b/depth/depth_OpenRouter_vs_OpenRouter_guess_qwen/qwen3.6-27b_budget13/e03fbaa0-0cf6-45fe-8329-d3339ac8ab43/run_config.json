@@ -1,0 +1,9 @@
+{
+    "run_id": "e03fbaa0-0cf6-45fe-8329-d3339ac8ab43",
+    "stop_after": 30,
+    "k_num_guesses": 3,
+    "max_inflight_actors": 13,
+    "agent0": "OpenRouter",
+    "agent1": "OpenRouter",
+    "guess_model": "qwen/qwen3.6-27b"
+}

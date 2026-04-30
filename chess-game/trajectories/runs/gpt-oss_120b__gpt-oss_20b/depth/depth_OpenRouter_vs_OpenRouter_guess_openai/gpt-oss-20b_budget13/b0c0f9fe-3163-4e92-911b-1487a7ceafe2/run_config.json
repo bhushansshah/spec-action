@@ -1,0 +1,9 @@
+{
+    "run_id": "b0c0f9fe-3163-4e92-911b-1487a7ceafe2",
+    "stop_after": 30,
+    "k_num_guesses": 3,
+    "max_inflight_actors": 13,
+    "agent0": "OpenRouter",
+    "agent1": "OpenRouter",
+    "guess_model": "openai/gpt-oss-20b"
+}

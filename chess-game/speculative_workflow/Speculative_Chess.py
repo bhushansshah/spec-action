@@ -67,6 +67,17 @@ class Config:
             self.guess_prompt = config['prompts']['guess']
             self.retry_prompt = config['prompts']['retry']
 
+            # Pricing (optional): used to compute $ cost from token counts.
+            # Expected shape:
+            # pricing:
+            #   currency: "USD"   # optional, informational
+            #   per_1m_tokens:
+            #     "<model_name>": {input: 5.0, output: 15.0}
+            self.pricing_currency = (config.get('pricing', {}) or {}).get(
+                'currency', 'USD')
+            self.pricing_per_1m_tokens = (config.get('pricing', {}) or {}).get(
+                'per_1m_tokens', {}) or {}
+
         except Exception as e:
             print(f"Error loading YAML config: {e}")
 
@@ -153,25 +164,83 @@ class AgentManager:
         
         return agents
     
-    def call_guess_llm(self, prompt: str, model_name: str, retries: int = 3) -> Tuple[Optional[str], Optional[int], Optional[int], Optional[int]]:
+    def call_guess_llm(
+        self,
+        prompt: str,
+        model_name: str,
+        retries: int = 3,
+    ) -> Tuple[
+        Optional[str],
+        Optional[int],
+        Optional[int],
+        Optional[int],
+        Optional[float],
+        Optional[dict],
+    ]:
+        """Returns text and token usage. Usage sums across retry attempts that
+        reached the API (failed attempts with no response contribute no tokens).
+
+        For OpenRouter requests, also attempts to return the provider-reported
+        `usage.cost` and `usage.cost_details` (if present in the JSON body).
+        """
+        agg_in = 0
+        agg_out = 0
+        agg_tot = 0
+        agg_cost = 0.0
+        saw_cost = False
         for attempt in range(retries):
             try:
                 if "/" in model_name:  # OpenRouter model
-                    response = self.openrouter_client.chat.completions.create(
-                        model=model_name,
-                        messages=[
-                            {"role": "system", "content": self.config.standard_game_prompt},
-                            {"role": "user", "content": prompt}
-                        ],
-                        reasoning_effort="low"
+                    # OpenRouter can return per-request billed cost in `usage.cost`,
+                    # but the OpenAI SDK may drop unknown fields. Use raw response.
+                    raw_resp = (
+                        self.openrouter_client.with_raw_response
+                        .chat.completions.create(
+                            model=model_name,
+                            messages=[
+                                {"role": "system",
+                                 "content": self.config.standard_game_prompt},
+                                {"role": "user", "content": prompt},
+                            ],
+                            reasoning_effort="low",
+                        )
                     )
+                    response = raw_resp.parse()
                     input_tokens, output_tokens, total_tokens = None, None, None
                     usage = response.usage
                     if usage:
                         input_tokens = usage.prompt_tokens
                         output_tokens = usage.completion_tokens
                         total_tokens = usage.total_tokens
-                    return response.choices[0].message.content.strip(), input_tokens, output_tokens, total_tokens
+                        agg_in += input_tokens or 0
+                        agg_out += output_tokens or 0
+                        if total_tokens is not None:
+                            agg_tot += total_tokens
+                        else:
+                            agg_tot += (input_tokens or 0) + (output_tokens or 0)
+                    # Pull cost from raw JSON (if present).
+                    try:
+                        body = raw_resp.http_response.json()
+                    except Exception:  # noqa: BLE001
+                        body = {}
+                    usage_json = (body or {}).get("usage") or {}
+                    cost = usage_json.get("cost")
+                    cost_details = usage_json.get("cost_details")
+                    if cost is not None:
+                        try:
+                            agg_cost += float(cost)
+                            saw_cost = True
+                        except Exception:  # noqa: BLE001
+                            pass
+                    text = response.choices[0].message.content.strip()
+                    return (
+                        text,
+                        agg_in or None,
+                        agg_out or None,
+                        agg_tot or None,
+                        (agg_cost if saw_cost else None),
+                        cost_details if saw_cost else None,
+                    )
 
                 elif model_name.startswith("gpt") or model_name.startswith("o"):
                     response = self.openai_client.chat.completions.create(
@@ -189,14 +258,42 @@ class AgentManager:
                         input_tokens = usage.prompt_tokens
                         output_tokens = usage.completion_tokens
                         total_tokens = usage.total_tokens
-                    return response.choices[0].message.content.strip(), input_tokens, output_tokens, total_tokens
+                        agg_in += input_tokens or 0
+                        agg_out += output_tokens or 0
+                        if total_tokens is not None:
+                            agg_tot += total_tokens
+                        else:
+                            agg_tot += (input_tokens or 0) + (output_tokens or 0)
+                    text = response.choices[0].message.content.strip()
+                    return (
+                        text,
+                        agg_in or None,
+                        agg_out or None,
+                        agg_tot or None,
+                        None,
+                        None,
+                    )
 
             except Exception as e:
                 print(f"LLM call attempt {attempt + 1} failed: {e}")
                 if attempt == retries - 1:
-                    return None, None, None, None
-        
-        return None, None, None, None
+                    return (
+                        None,
+                        agg_in or None,
+                        agg_out or None,
+                        agg_tot or None,
+                        (agg_cost if saw_cost else None),
+                        None,
+                    )
+
+        return (
+            None,
+            agg_in or None,
+            agg_out or None,
+            agg_tot or None,
+            (agg_cost if saw_cost else None),
+            None,
+        )
 
 
 class SpeculativeChessRunner:
@@ -221,6 +318,10 @@ class SpeculativeChessRunner:
         base = self.config.trajectories_path
         self.base_traj_path = f"{base.rstrip('/')}/{self.agent0_name}_vs_{self.agent1_name}_guess{self.guess_model_name}"
         self.logger: Optional[GameLogger] = None
+
+        # Per-run usage aggregation (reset in run()).
+        self._usage_actor: Dict[str, Any] = self._empty_llm_usage_bucket()
+        self._usage_spec: Dict[str, Any] = self._empty_llm_usage_bucket()
         
         # Initialize environment
         self.env = self._create_environment()
@@ -234,11 +335,21 @@ class SpeculativeChessRunner:
         """Get list of valid moves in UCI format"""
         return [f'[{move.uci()}]' for move in self.env.state.game_state["board"].legal_moves]
     
+    def _actor_model_for_player(self, player_id: int) -> str:
+        agent_name = self.agent0_name if player_id == 0 else self.agent1_name
+        if agent_name == "OpenRouter":
+            return self.config.openrouter_model_name
+        if agent_name == "OpenAI":
+            return self.config.openai_model_name
+        raise ValueError(f"Unknown agent type: {agent_name}")
+
 
     def _guess_actions(self, observation: str, retries: int = 3) -> Optional[Tuple[List[str], float, int, int, int]]:
         start_pred_time = time.perf_counter()
         prompt = observation + self.config.guess_prompt.format(num_guesses=self.num_guesses)
-        raw_output, input_tokens, output_tokens, total_tokens = self.agent_manager.call_guess_llm(prompt, self.guess_model_name, retries)
+        raw_output, input_tokens, output_tokens, total_tokens, _cost, _cost_details = (
+            self.agent_manager.call_guess_llm(prompt, self.guess_model_name, retries)
+        )
         if raw_output is None or input_tokens is None or output_tokens is None or total_tokens is None:
             return None
         end_pred_time = time.perf_counter()
@@ -246,8 +357,70 @@ class SpeculativeChessRunner:
         
         if self.logger:
             self.logger.log("SIMULATION GUESS OUTPUT", raw_output)
-        
+
+        # Speculator usage (tokens + OpenRouter provider cost when available).
+        self._add_llm_usage(
+            self._usage_spec,
+            model=self.guess_model_name,
+            input_tokens=input_tokens,
+            output_tokens=output_tokens,
+            total_tokens=total_tokens,
+            provider_cost_usd=_cost,
+        )
+
         return ChessActionCleaner.clean_actions(raw_output), prediction_time, input_tokens, output_tokens, total_tokens
+
+    @staticmethod
+    def _empty_llm_usage_bucket() -> Dict[str, Any]:
+        return {
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "total_tokens": 0,
+            "invocations": 0,
+            "provider_cost_usd": 0.0,
+            "by_model": {},
+        }
+
+    @staticmethod
+    def _add_llm_usage(
+        bucket: Dict[str, Any],
+        *,
+        model: str,
+        input_tokens: Optional[int],
+        output_tokens: Optional[int],
+        total_tokens: Optional[int],
+        provider_cost_usd: Optional[float],
+    ) -> None:
+        bucket["invocations"] += 1
+        if input_tokens is not None:
+            bucket["input_tokens"] += int(input_tokens)
+        if output_tokens is not None:
+            bucket["output_tokens"] += int(output_tokens)
+        if total_tokens is not None:
+            bucket["total_tokens"] += int(total_tokens)
+        if provider_cost_usd is not None:
+            bucket["provider_cost_usd"] += float(provider_cost_usd)
+
+        by_model = bucket.setdefault("by_model", {})
+        m = by_model.setdefault(
+            model,
+            {
+                "input_tokens": 0,
+                "output_tokens": 0,
+                "total_tokens": 0,
+                "invocations": 0,
+                "provider_cost_usd": 0.0,
+            },
+        )
+        m["invocations"] += 1
+        if input_tokens is not None:
+            m["input_tokens"] += int(input_tokens)
+        if output_tokens is not None:
+            m["output_tokens"] += int(output_tokens)
+        if total_tokens is not None:
+            m["total_tokens"] += int(total_tokens)
+        if provider_cost_usd is not None:
+            m["provider_cost_usd"] += float(provider_cost_usd)
     
     def _agent_call_with_retry(
         self, 
@@ -264,6 +437,15 @@ class SpeculativeChessRunner:
             cleaned_action = ChessActionCleaner.clean_action(raw_action)
             
             if cleaned_action and cleaned_action in valid_moves:
+                # Actor usage (tokens only; TextArena wrapper doesn't expose cost).
+                self._add_llm_usage(
+                    self._usage_actor,
+                    model=self._actor_model_for_player(player_id),
+                    input_tokens=input_tokens,
+                    output_tokens=output_tokens,
+                    total_tokens=total_tokens,
+                    provider_cost_usd=None,
+                )
                 return cleaned_action, input_tokens, output_tokens, total_tokens
             
             if self.logger:
@@ -523,9 +705,33 @@ class SpeculativeChessRunner:
         
         try:
             # Execute game
-            steps_info, rewards, game_info, regular_time, speculative_time = self._execute_game_loop(
-                agents, stop_after
+            wall_t0 = time.perf_counter()
+            self._usage_actor = self._empty_llm_usage_bucket()
+            self._usage_spec = self._empty_llm_usage_bucket()
+            steps_info, rewards, game_info, regular_time, speculative_time = (
+                self._execute_game_loop(agents, stop_after)
             )
+            wall_seconds = time.perf_counter() - wall_t0
+
+            combined = self._empty_llm_usage_bucket()
+            for b in (self._usage_actor, self._usage_spec):
+                combined["input_tokens"] += b["input_tokens"]
+                combined["output_tokens"] += b["output_tokens"]
+                combined["total_tokens"] += b["total_tokens"]
+                combined["invocations"] += b["invocations"]
+                combined["provider_cost_usd"] += b["provider_cost_usd"]
+            llm_usage = {
+                "actor": self._usage_actor,
+                "speculator": self._usage_spec,
+                "combined": combined,
+                "notes": (
+                    "Breadth pipeline records token usage for Actor calls via the "
+                    "TextArena agent wrapper, but that wrapper does not expose "
+                    "OpenRouter per-request `usage.cost`. Speculator cost can be "
+                    "recorded because guess calls go through AgentManager.call_guess_llm, "
+                    "which extracts OpenRouter `usage.cost` from the raw JSON response."
+                ),
+            }
             
             # Save results
             Utils.save_json(steps_info, join(current_dir_path, "stepsinfo.json"))
@@ -533,6 +739,20 @@ class SpeculativeChessRunner:
             Utils.save_json(game_info, join(current_dir_path, "game_info.json"))
             Utils.save_json(regular_time, join(current_dir_path, "time_checker_regular.json"))
             Utils.save_json(speculative_time, join(current_dir_path, "time_checker_speculate.json"))
+            Utils.save_json(
+                {
+                    "run_id": self.current_run_id,
+                    "stop_after": stop_after,
+                    "agent0": self.agent0_name,
+                    "agent1": self.agent1_name,
+                    "guess_model": self.guess_model_name,
+                    "wall_seconds": wall_seconds,
+                    "regular_time_seconds_sum": regular_time,
+                    "speculative_time_seconds_sum": speculative_time,
+                    "llm_usage": llm_usage,
+                },
+                join(current_dir_path, "stats.json"),
+            )
             
             self.logger.log("INFO", f"Run completed for {self.current_run_id}")
             

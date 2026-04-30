@@ -1,0 +1,109 @@
+{
+    "hits": 7,
+    "cascaded_hits": 5,
+    "misses": 18,
+    "actor_launches": 112,
+    "actor_dedup_reuse": 0,
+    "actor_deferred": 0,
+    "actor_promoted_launch": 18,
+    "speculator_launches": 112,
+    "max_inflight_actors_observed": 13,
+    "max_tree_nodes": 16,
+    "max_tree_depth": 30,
+    "max_cascade_run_length": 4,
+    "llm_usage": {
+        "actor": {
+            "input_tokens": 47304,
+            "output_tokens": 730823,
+            "total_tokens": 778127,
+            "guess_llm_invocations": 108,
+            "provider_cost": 1.4404786499999997,
+            "by_model": {
+                "qwen/qwen3.6-plus": {
+                    "input_tokens": 47304,
+                    "output_tokens": 730823,
+                    "total_tokens": 778127,
+                    "guess_llm_invocations": 108,
+                    "provider_cost": 1.4404786499999997
+                }
+            }
+        },
+        "speculator": {
+            "input_tokens": 65896,
+            "output_tokens": 763528,
+            "total_tokens": 829424,
+            "guess_llm_invocations": 107,
+            "provider_cost": 2.0894996249999997,
+            "by_model": {
+                "qwen/qwen3.6-27b": {
+                    "input_tokens": 65896,
+                    "output_tokens": 763528,
+                    "total_tokens": 829424,
+                    "guess_llm_invocations": 107,
+                    "provider_cost": 2.0894996249999997
+                }
+            }
+        },
+        "combined": {
+            "input_tokens": 113200,
+            "output_tokens": 1494351,
+            "total_tokens": 1607551,
+            "guess_llm_invocations": 215,
+            "provider_cost": 3.5299782749999995,
+            "by_model": {
+                "qwen/qwen3.6-plus": {
+                    "input_tokens": 47304,
+                    "output_tokens": 730823,
+                    "total_tokens": 778127,
+                    "guess_llm_invocations": 108,
+                    "provider_cost": 1.4404786499999997
+                },
+                "qwen/qwen3.6-27b": {
+                    "input_tokens": 65896,
+                    "output_tokens": 763528,
+                    "total_tokens": 829424,
+                    "guess_llm_invocations": 107,
+                    "provider_cost": 2.0894996249999997
+                }
+            }
+        },
+        "cost": {
+            "provider_reported": {
+                "currency": "USD",
+                "actor": 1.4404786499999997,
+                "speculator": 2.0894996249999997,
+                "combined": 3.5299782749999995,
+                "notes": "OpenRouter returns per-request billed cost in usage.cost. OpenAI does not expose per-request cost in the response; those calls contribute 0 here unless routed via OpenRouter."
+            },
+            "actor": {
+                "currency": "USD",
+                "cost_total": null,
+                "cost_by_model": {},
+                "missing_pricing_for_models": [
+                    "qwen/qwen3.6-plus"
+                ],
+                "pricing_units": "per_1m_tokens"
+            },
+            "speculator": {
+                "currency": "USD",
+                "cost_total": null,
+                "cost_by_model": {},
+                "missing_pricing_for_models": [
+                    "qwen/qwen3.6-27b"
+                ],
+                "pricing_units": "per_1m_tokens"
+            },
+            "combined": {
+                "currency": "USD",
+                "cost_total": null,
+                "cost_by_model": {},
+                "missing_pricing_for_models": [
+                    "qwen/qwen3.6-27b",
+                    "qwen/qwen3.6-plus"
+                ],
+                "pricing_units": "per_1m_tokens"
+            }
+        },
+        "notes": "All LLM calls issued during the run, including speculative branches later pruned or abandoned. Actor dedup shares one async task \u2014 usage is counted once per completed call_guess_llm. Cost is computed from config pricing if provided."
+    }
+}

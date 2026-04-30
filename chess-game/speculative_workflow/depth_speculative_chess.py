@@ -17,10 +17,11 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import threading
 import time
 import uuid
 from os.path import join
-from typing import Any, List, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 import chess
 
@@ -88,6 +89,148 @@ class ChessDepthRunner:
         self.num_guesses = config.num_guesses
         self.max_inflight_actors = max_inflight_actors
         self.logger: GameLogger | None = None
+        self._usage_lock = threading.Lock()
+        self._usage_actor: Dict[str, int] = {}
+        self._usage_spec: Dict[str, int] = {}
+
+    def _reset_llm_usage(self) -> None:
+        """Per-run counters; thread-safe updates via _add_llm_usage."""
+        with self._usage_lock:
+            self._usage_actor = {
+                "input_tokens": 0,
+                "output_tokens": 0,
+                "total_tokens": 0,
+                "guess_llm_invocations": 0,
+                "provider_cost": 0.0,
+                "by_model": {},
+            }
+            self._usage_spec = {
+                "input_tokens": 0,
+                "output_tokens": 0,
+                "total_tokens": 0,
+                "guess_llm_invocations": 0,
+                "provider_cost": 0.0,
+                "by_model": {},
+            }
+
+    def _add_llm_usage(self, role: str, model_name: str,
+                       inp: Optional[int], out: Optional[int],
+                       tot: Optional[int], provider_cost: Optional[float]) -> None:
+        with self._usage_lock:
+            bucket = self._usage_actor if role == "actor" else self._usage_spec
+            bucket["guess_llm_invocations"] += 1
+            if inp is not None:
+                bucket["input_tokens"] += inp
+            if out is not None:
+                bucket["output_tokens"] += out
+            if tot is not None:
+                bucket["total_tokens"] += tot
+            if provider_cost is not None:
+                bucket["provider_cost"] += float(provider_cost)
+            by_model = bucket.setdefault("by_model", {})
+            m = by_model.setdefault(
+                model_name,
+                {"input_tokens": 0, "output_tokens": 0, "total_tokens": 0,
+                 "guess_llm_invocations": 0, "provider_cost": 0.0},
+            )
+            m["guess_llm_invocations"] += 1
+            if inp is not None:
+                m["input_tokens"] += inp
+            if out is not None:
+                m["output_tokens"] += out
+            if tot is not None:
+                m["total_tokens"] += tot
+            if provider_cost is not None:
+                m["provider_cost"] += float(provider_cost)
+
+    def _cost_from_tokens(self, by_model: Dict[str, Dict[str, int]]) -> Dict[str, Any]:
+        """Compute USD cost given per-model token usage and config pricing.
+
+        If a model is missing from pricing table, cost is returned as None and
+        missing model names are reported.
+        """
+        pricing = getattr(self.config, "pricing_per_1m_tokens", {}) or {}
+        currency = getattr(self.config, "pricing_currency", "USD")
+        missing: List[str] = []
+        total_cost = 0.0
+        cost_by_model: Dict[str, float] = {}
+        for model_name, u in by_model.items():
+            rate = pricing.get(model_name)
+            if not rate:
+                missing.append(model_name)
+                continue
+            in_rate = float(rate.get("input", 0.0))
+            out_rate = float(rate.get("output", 0.0))
+            c = (u.get("input_tokens", 0) / 1_000_000.0) * in_rate + (
+                u.get("output_tokens", 0) / 1_000_000.0
+            ) * out_rate
+            cost_by_model[model_name] = c
+            total_cost += c
+        return {
+            "currency": currency,
+            "cost_total": None if missing else total_cost,
+            "cost_by_model": cost_by_model,
+            "missing_pricing_for_models": sorted(set(missing)),
+            "pricing_units": "per_1m_tokens",
+        }
+
+    def _llm_usage_payload(self) -> Dict[str, Any]:
+        with self._usage_lock:
+            a = dict(self._usage_actor)
+            s = dict(self._usage_spec)
+        combined = {
+            "input_tokens": a["input_tokens"] + s["input_tokens"],
+            "output_tokens": a["output_tokens"] + s["output_tokens"],
+            "total_tokens": a["total_tokens"] + s["total_tokens"],
+            "guess_llm_invocations": (
+                a["guess_llm_invocations"] + s["guess_llm_invocations"]),
+            "provider_cost": float(a.get("provider_cost", 0.0)) + float(s.get("provider_cost", 0.0)),
+            "by_model": {},
+        }
+        # merge by_model
+        for src in (a.get("by_model", {}) or {}, s.get("by_model", {}) or {}):
+            for model_name, u in src.items():
+                dst = combined["by_model"].setdefault(
+                    model_name,
+                    {"input_tokens": 0, "output_tokens": 0, "total_tokens": 0,
+                     "guess_llm_invocations": 0, "provider_cost": 0.0},
+                )
+                dst["input_tokens"] += u.get("input_tokens", 0)
+                dst["output_tokens"] += u.get("output_tokens", 0)
+                dst["total_tokens"] += u.get("total_tokens", 0)
+                dst["guess_llm_invocations"] += u.get("guess_llm_invocations", 0)
+                dst["provider_cost"] += float(u.get("provider_cost", 0.0))
+
+        actor_cost = self._cost_from_tokens(a.get("by_model", {}) or {})
+        spec_cost = self._cost_from_tokens(s.get("by_model", {}) or {})
+        combined_cost = self._cost_from_tokens(combined.get("by_model", {}) or {})
+        return {
+            "actor": a,
+            "speculator": s,
+            "combined": combined,
+            "cost": {
+                "provider_reported": {
+                    "currency": "USD",
+                    "actor": float(a.get("provider_cost", 0.0)),
+                    "speculator": float(s.get("provider_cost", 0.0)),
+                    "combined": combined["provider_cost"],
+                    "notes": (
+                        "OpenRouter returns per-request billed cost in usage.cost. "
+                        "OpenAI does not expose per-request cost in the response; "
+                        "those calls contribute 0 here unless routed via OpenRouter."
+                    ),
+                },
+                "actor": actor_cost,
+                "speculator": spec_cost,
+                "combined": combined_cost,
+            },
+            "notes": (
+                "All LLM calls issued during the run, including speculative "
+                "branches later pruned or abandoned. Actor dedup shares one "
+                "async task — usage is counted once per completed call_guess_llm. "
+                "Cost is computed from config pricing if provided."
+            ),
+        }
 
     def _actor_model_for_turn(self, turn: str) -> str:
         name = self.agent0_name if turn == "White" else self.agent1_name
@@ -101,8 +244,9 @@ class ChessDepthRunner:
                     observation: str) -> str:
         model = self._actor_model_for_turn(turn)
         for attempt in range(3):
-            raw, *_ = self.agent_manager.call_guess_llm(
+            raw, inp, out, tot, cost, _cost_details = self.agent_manager.call_guess_llm(
                 observation, model, retries=1)
+            self._add_llm_usage("actor", model, inp, out, tot, cost)
             cleaned = ChessActionCleaner.clean_action(raw) if raw else None
             if cleaned and cleaned in valid_moves:
                 if self.logger:
@@ -116,8 +260,9 @@ class ChessDepthRunner:
                          observation: str) -> List[str]:
         prompt = observation + self.config.guess_prompt.format(
             num_guesses=self.num_guesses)
-        raw, *_ = self.agent_manager.call_guess_llm(
+        raw, inp, out, tot, cost, _cost_details = self.agent_manager.call_guess_llm(
             prompt, self.guess_model_name, retries=3)
+        self._add_llm_usage("speculator", self.guess_model_name, inp, out, tot, cost)
         if not raw:
             return []
         candidates = ChessActionCleaner.clean_actions(raw)
@@ -143,6 +288,8 @@ class ChessDepthRunner:
 
         board = chess.Board()
         s_0 = _make_state(board)
+
+        self._reset_llm_usage()
 
         t0 = time.perf_counter()
 
@@ -206,6 +353,7 @@ class ChessDepthRunner:
             domain="chess",
             assert_invariants=True,
             record_steps=True,
+            root_actor_implies_miss=True,
             on_event=on_event,
         )
         wall = time.perf_counter() - t0
@@ -226,6 +374,7 @@ class ChessDepthRunner:
             })
 
         out_dir = join(output_dir, run_id)
+        llm_usage = self._llm_usage_payload()
         stats_dict = {
             "hits": stats.hits,
             "cascaded_hits": stats.cascaded_hits,
@@ -239,6 +388,7 @@ class ChessDepthRunner:
             "max_tree_nodes": stats.max_tree_nodes,
             "max_tree_depth": stats.max_tree_depth,
             "max_cascade_run_length": stats.max_cascade_run_length,
+            "llm_usage": llm_usage,
         }
         run_config = {
             "run_id": run_id,
@@ -264,11 +414,18 @@ class ChessDepthRunner:
 
         if self.logger:
             self.logger.log("DONE", Utils.dict_to_str(stats_dict))
+        cu = llm_usage["combined"]
+        pc = llm_usage["cost"]["provider_reported"]
+        cost_str = f"{pc['currency']} {pc['combined']:.6f}"
         print(f"[done] run_id={run_id} wall={wall:.2f}s  "
               f"hits={stats.hits}+{stats.cascaded_hits}cascade "
               f"misses={stats.misses} "
               f"max_inflight={stats.max_inflight_actors_observed} "
-              f"max_tree_depth={stats.max_tree_depth}")
+              f"max_tree_depth={stats.max_tree_depth}  "
+              f"llm_tok≈in{cu['input_tokens']}+out{cu['output_tokens']}"
+              f"(total{cu['total_tokens']}) "
+              f"invocations={cu['guess_llm_invocations']} "
+              f"cost≈{cost_str}")
 
 
 def main() -> None:

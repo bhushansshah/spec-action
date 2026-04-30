@@ -1,0 +1,452 @@
+[
+    {
+        "step": 0,
+        "action": "[e2e4]",
+        "kind": "hit",
+        "predictions": [
+            "[d2d4]",
+            "[e2e4]",
+            "[g1f3]"
+        ],
+        "time_to_confirm_seconds": 1.4875581670203246,
+        "inflight_actors_at_confirm": 1,
+        "player_id": 0,
+        "fen_before": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "fen_after": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+        "step": 1,
+        "action": "[e7e5]",
+        "kind": "miss",
+        "predictions": [
+            "[g8f6]",
+            "[b8c6]",
+            "[g7g6]"
+        ],
+        "time_to_confirm_seconds": 3.86732183303684,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 1,
+        "fen_before": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+        "fen_after": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+        "step": 2,
+        "action": "[g1f3]",
+        "kind": "hit",
+        "predictions": [
+            "[g1f3]",
+            "[b1c3]",
+            "[d2d3]"
+        ],
+        "time_to_confirm_seconds": 7.416014542046469,
+        "inflight_actors_at_confirm": 4,
+        "player_id": 0,
+        "fen_before": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "fen_after": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+        "step": 3,
+        "action": "[b8c6]",
+        "kind": "miss",
+        "predictions": [
+            "[g8f6]",
+            "[f8d6]",
+            "[g8e7]"
+        ],
+        "time_to_confirm_seconds": 15.273303250025492,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 1,
+        "fen_before": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+        "fen_after": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"
+    },
+    {
+        "step": 4,
+        "action": "[f3e5]",
+        "kind": "hit",
+        "predictions": [
+            "[f3g5]",
+            "[f3e5]",
+            "[f1a6]"
+        ],
+        "time_to_confirm_seconds": 27.90669179201359,
+        "inflight_actors_at_confirm": 1,
+        "player_id": 0,
+        "fen_before": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+        "fen_after": "r1bqkbnr/pppp1ppp/2n5/4N3/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 3"
+    },
+    {
+        "step": 5,
+        "action": "[g8e7]",
+        "kind": "miss",
+        "predictions": [
+            "[f8c5]",
+            "[f8d6]",
+            "[c6e5]"
+        ],
+        "time_to_confirm_seconds": 31.474183250044007,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 1,
+        "fen_before": "r1bqkbnr/pppp1ppp/2n5/4N3/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
+        "fen_after": "r1bqkb1r/ppppnppp/2n5/4N3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 1 4"
+    },
+    {
+        "step": 6,
+        "action": "[e5c6]",
+        "kind": "miss",
+        "predictions": [
+            "[e5f7]",
+            "[f1a6]",
+            "[d1h5]"
+        ],
+        "time_to_confirm_seconds": 44.02429062500596,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 0,
+        "fen_before": "r1bqkb1r/ppppnppp/2n5/4N3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 1 4",
+        "fen_after": "r1bqkb1r/ppppnppp/2N5/8/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 4"
+    },
+    {
+        "step": 7,
+        "action": "[e7g8]",
+        "kind": "miss",
+        "predictions": [
+            "[e7d5]",
+            "[e7f5]",
+            "[e7c6]"
+        ],
+        "time_to_confirm_seconds": 55.820999333052896,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 1,
+        "fen_before": "r1bqkb1r/ppppnppp/2N5/8/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 4",
+        "fen_after": "r1bqkbnr/pppp1ppp/2N5/8/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 1 5"
+    },
+    {
+        "step": 8,
+        "action": "[c6d8]",
+        "kind": "miss",
+        "predictions": [
+            "[d1h5]",
+            "[c6e5]",
+            "[f1d3]"
+        ],
+        "time_to_confirm_seconds": 58.790638167003635,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 0,
+        "fen_before": "r1bqkbnr/pppp1ppp/2N5/8/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 1 5",
+        "fen_after": "r1bNkbnr/pppp1ppp/8/8/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 5"
+    },
+    {
+        "step": 9,
+        "action": "[e8e7]",
+        "kind": "miss",
+        "predictions": [
+            "[g8f6]",
+            "[f8d6]",
+            "[g8e7]"
+        ],
+        "time_to_confirm_seconds": 71.18950108304853,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 1,
+        "fen_before": "r1bNkbnr/pppp1ppp/8/8/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 5",
+        "fen_after": "r1bN1bnr/ppppkppp/8/8/4P3/8/PPPP1PPP/RNBQKB1R w KQ - 1 6"
+    },
+    {
+        "step": 10,
+        "action": "[d8f7]",
+        "kind": "miss",
+        "predictions": [
+            "[d1h5]",
+            "[f1e2]",
+            "[e4e5]"
+        ],
+        "time_to_confirm_seconds": 99.98262075003004,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 0,
+        "fen_before": "r1bN1bnr/ppppkppp/8/8/4P3/8/PPPP1PPP/RNBQKB1R w KQ - 1 6",
+        "fen_after": "r1b2bnr/ppppkNpp/8/8/4P3/8/PPPP1PPP/RNBQKB1R b KQ - 0 6"
+    },
+    {
+        "step": 11,
+        "action": "[e7e8]",
+        "kind": "hit",
+        "predictions": [
+            "[g8f6]",
+            "[g8h6]",
+            "[e7e8]"
+        ],
+        "time_to_confirm_seconds": 122.75194941699738,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 1,
+        "fen_before": "r1b2bnr/ppppkNpp/8/8/4P3/8/PPPP1PPP/RNBQKB1R b KQ - 0 6",
+        "fen_after": "r1b1kbnr/pppp1Npp/8/8/4P3/8/PPPP1PPP/RNBQKB1R w KQ - 1 7"
+    },
+    {
+        "step": 12,
+        "action": "[f7h8]",
+        "kind": "miss",
+        "predictions": [
+            "[d1h5]",
+            "[d1g4]",
+            "[f1c4]"
+        ],
+        "time_to_confirm_seconds": 122.75221312500071,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 0,
+        "fen_before": "r1b1kbnr/pppp1Npp/8/8/4P3/8/PPPP1PPP/RNBQKB1R w KQ - 1 7",
+        "fen_after": "r1b1kbnN/pppp2pp/8/8/4P3/8/PPPP1PPP/RNBQKB1R b KQ - 0 7"
+    },
+    {
+        "step": 13,
+        "action": "[g8e7]",
+        "kind": "miss",
+        "predictions": [
+            "[g8f6]",
+            "[e8e7]",
+            "[f8c5]"
+        ],
+        "time_to_confirm_seconds": 148.7398000000394,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 1,
+        "fen_before": "r1b1kbnN/pppp2pp/8/8/4P3/8/PPPP1PPP/RNBQKB1R b KQ - 0 7",
+        "fen_after": "r1b1kb1N/ppppn1pp/8/8/4P3/8/PPPP1PPP/RNBQKB1R w KQ - 1 8"
+    },
+    {
+        "step": 14,
+        "action": "[d1h5]",
+        "kind": "hit",
+        "predictions": [
+            "[f1c4]",
+            "[d1h5]",
+            "[b1c3]"
+        ],
+        "time_to_confirm_seconds": 153.07808662502794,
+        "inflight_actors_at_confirm": 1,
+        "player_id": 0,
+        "fen_before": "r1b1kb1N/ppppn1pp/8/8/4P3/8/PPPP1PPP/RNBQKB1R w KQ - 1 8",
+        "fen_after": "r1b1kb1N/ppppn1pp/8/7Q/4P3/8/PPPP1PPP/RNB1KB1R b KQ - 2 8"
+    },
+    {
+        "step": 15,
+        "action": "[e7g6]",
+        "kind": "hit",
+        "predictions": [
+            "[e7g6]",
+            "[g7g6]",
+            "[e8d8]"
+        ],
+        "time_to_confirm_seconds": 164.17507666704478,
+        "inflight_actors_at_confirm": 1,
+        "player_id": 1,
+        "fen_before": "r1b1kb1N/ppppn1pp/8/7Q/4P3/8/PPPP1PPP/RNB1KB1R b KQ - 2 8",
+        "fen_after": "r1b1kb1N/pppp2pp/6n1/7Q/4P3/8/PPPP1PPP/RNB1KB1R w KQ - 3 9"
+    },
+    {
+        "step": 16,
+        "action": "[h8f7]",
+        "kind": "miss",
+        "predictions": [
+            "[h5h7]",
+            "[h5g6]",
+            "[h5g5]"
+        ],
+        "time_to_confirm_seconds": 169.08154845802346,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 0,
+        "fen_before": "r1b1kb1N/pppp2pp/6n1/7Q/4P3/8/PPPP1PPP/RNB1KB1R w KQ - 3 9",
+        "fen_after": "r1b1kb2/pppp1Npp/6n1/7Q/4P3/8/PPPP1PPP/RNB1KB1R b KQ - 4 9"
+    },
+    {
+        "step": 17,
+        "action": "[f8e7]",
+        "kind": "hit",
+        "predictions": [
+            "[e8f7]",
+            "[f8e7]",
+            "[g6f4]"
+        ],
+        "time_to_confirm_seconds": 192.52813333302038,
+        "inflight_actors_at_confirm": 4,
+        "player_id": 1,
+        "fen_before": "r1b1kb2/pppp1Npp/6n1/7Q/4P3/8/PPPP1PPP/RNB1KB1R b KQ - 4 9",
+        "fen_after": "r1b1k3/ppppbNpp/6n1/7Q/4P3/8/PPPP1PPP/RNB1KB1R w KQ - 5 10"
+    },
+    {
+        "step": 18,
+        "action": "[e4e5]",
+        "kind": "miss",
+        "predictions": [
+            "[h5e5]",
+            "[f7d8]",
+            "[h5h6]"
+        ],
+        "time_to_confirm_seconds": 206.91415820800466,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 0,
+        "fen_before": "r1b1k3/ppppbNpp/6n1/7Q/4P3/8/PPPP1PPP/RNB1KB1R w KQ - 5 10",
+        "fen_after": "r1b1k3/ppppbNpp/6n1/4P2Q/8/8/PPPP1PPP/RNB1KB1R b KQ - 0 10"
+    },
+    {
+        "step": 19,
+        "action": "[d7d5]",
+        "kind": "miss",
+        "predictions": [
+            "[e7g5]",
+            "[g6e5]",
+            "[e8f7]"
+        ],
+        "time_to_confirm_seconds": 230.53105858300114,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 1,
+        "fen_before": "r1b1k3/ppppbNpp/6n1/4P2Q/8/8/PPPP1PPP/RNB1KB1R b KQ - 0 10",
+        "fen_after": "r1b1k3/ppp1bNpp/6n1/3pP2Q/8/8/PPPP1PPP/RNB1KB1R w KQ d6 0 11"
+    },
+    {
+        "step": 20,
+        "action": "[h5h7]",
+        "kind": "miss",
+        "predictions": [
+            "[f7d6]",
+            "[h5g6]",
+            "[b1c3]"
+        ],
+        "time_to_confirm_seconds": 389.25521358300466,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 0,
+        "fen_before": "r1b1k3/ppp1bNpp/6n1/3pP2Q/8/8/PPPP1PPP/RNB1KB1R w KQ d6 0 11",
+        "fen_after": "r1b1k3/ppp1bNpQ/6n1/3pP3/8/8/PPPP1PPP/RNB1KB1R b KQ - 0 11"
+    },
+    {
+        "step": 21,
+        "action": "[e8f8]",
+        "kind": "hit",
+        "predictions": [
+            "[g6f8]",
+            "[e8f8]",
+            "[c8d7]"
+        ],
+        "time_to_confirm_seconds": 395.3307806250523,
+        "inflight_actors_at_confirm": 1,
+        "player_id": 1,
+        "fen_before": "r1b1k3/ppp1bNpQ/6n1/3pP3/8/8/PPPP1PPP/RNB1KB1R b KQ - 0 11",
+        "fen_after": "r1b2k2/ppp1bNpQ/6n1/3pP3/8/8/PPPP1PPP/RNB1KB1R w KQ - 1 12"
+    },
+    {
+        "step": 22,
+        "action": "[h7g6]",
+        "kind": "miss",
+        "predictions": [
+            "[e5e6]",
+            "[f1e2]",
+            "[e1e2]"
+        ],
+        "time_to_confirm_seconds": 479.13170691701816,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 0,
+        "fen_before": "r1b2k2/ppp1bNpQ/6n1/3pP3/8/8/PPPP1PPP/RNB1KB1R w KQ - 1 12",
+        "fen_after": "r1b2k2/ppp1bNp1/6Q1/3pP3/8/8/PPPP1PPP/RNB1KB1R b KQ - 0 12"
+    },
+    {
+        "step": 23,
+        "action": "[f8g8]",
+        "kind": "miss",
+        "predictions": [
+            "[c8g4]",
+            "[c8f5]",
+            "[e7g5]"
+        ],
+        "time_to_confirm_seconds": 514.5074357080157,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 1,
+        "fen_before": "r1b2k2/ppp1bNp1/6Q1/3pP3/8/8/PPPP1PPP/RNB1KB1R b KQ - 0 12",
+        "fen_after": "r1b3k1/ppp1bNp1/6Q1/3pP3/8/8/PPPP1PPP/RNB1KB1R w KQ - 1 13"
+    },
+    {
+        "step": 24,
+        "action": "[g6h7]",
+        "kind": "miss",
+        "predictions": [
+            "[f7h8]",
+            "[f7d8]",
+            "[b1c3]"
+        ],
+        "time_to_confirm_seconds": 536.7810694580548,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 0,
+        "fen_before": "r1b3k1/ppp1bNp1/6Q1/3pP3/8/8/PPPP1PPP/RNB1KB1R w KQ - 1 13",
+        "fen_after": "r1b3k1/ppp1bNpQ/8/3pP3/8/8/PPPP1PPP/RNB1KB1R b KQ - 2 13"
+    },
+    {
+        "step": 25,
+        "action": "[g8f7]",
+        "kind": "hit",
+        "predictions": [
+            "[g8h7]",
+            "[g8f8]",
+            "[g8f7]"
+        ],
+        "time_to_confirm_seconds": 554.8031831670087,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 1,
+        "fen_before": "r1b3k1/ppp1bNpQ/8/3pP3/8/8/PPPP1PPP/RNB1KB1R b KQ - 2 13",
+        "fen_after": "r1b5/ppp1bkpQ/8/3pP3/8/8/PPPP1PPP/RNB1KB1R w KQ - 0 14"
+    },
+    {
+        "step": 26,
+        "action": "[h7g8]",
+        "kind": "miss",
+        "predictions": [
+            "[f1c4]",
+            "[f1d3]",
+            "[h1g1]"
+        ],
+        "time_to_confirm_seconds": 554.8033347080345,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 0,
+        "fen_before": "r1b5/ppp1bkpQ/8/3pP3/8/8/PPPP1PPP/RNB1KB1R w KQ - 0 14",
+        "fen_after": "r1b3Q1/ppp1bkp1/8/3pP3/8/8/PPPP1PPP/RNB1KB1R b KQ - 1 14"
+    },
+    {
+        "step": 27,
+        "action": "[f7g8]",
+        "kind": "hit",
+        "predictions": [
+            "[f7g8]",
+            "[f7g6]",
+            "[f7g8]"
+        ],
+        "time_to_confirm_seconds": 565.503283750033,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 1,
+        "fen_before": "r1b3Q1/ppp1bkp1/8/3pP3/8/8/PPPP1PPP/RNB1KB1R b KQ - 1 14",
+        "fen_after": "r1b3k1/ppp1b1p1/8/3pP3/8/8/PPPP1PPP/RNB1KB1R w KQ - 0 15"
+    },
+    {
+        "step": 28,
+        "action": "[f1c4]",
+        "kind": "hit",
+        "predictions": [
+            "[f1c4]",
+            "[e5e6]",
+            "[h1g1]"
+        ],
+        "time_to_confirm_seconds": 567.6096703330404,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 0,
+        "fen_before": "r1b3k1/ppp1b1p1/8/3pP3/8/8/PPPP1PPP/RNB1KB1R w KQ - 0 15",
+        "fen_after": "r1b3k1/ppp1b1p1/8/3pP3/2B5/8/PPPP1PPP/RNB1K2R b KQ - 1 15"
+    },
+    {
+        "step": 29,
+        "action": "[e7g5]",
+        "kind": "miss",
+        "predictions": [
+            "[d5c4]",
+            "[e7f6]",
+            "[g8f7]"
+        ],
+        "time_to_confirm_seconds": 640.6184413330047,
+        "inflight_actors_at_confirm": 0,
+        "player_id": 1,
+        "fen_before": "r1b3k1/ppp1b1p1/8/3pP3/2B5/8/PPPP1PPP/RNB1K2R b KQ - 1 15",
+        "fen_after": "r1b3k1/ppp3p1/8/3pP1b1/2B5/8/PPPP1PPP/RNB1K2R w KQ - 2 16"
+    }
+]

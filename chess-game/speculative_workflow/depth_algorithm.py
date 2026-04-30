@@ -123,6 +123,7 @@ async def run_depth_speculative(
     domain: str = "generic",
     assert_invariants: bool = False,
     record_steps: bool = False,
+    root_actor_implies_miss: bool = False,
     on_event: Optional[Callable[[str, Dict[str, Any]], None]] = None,
 ) -> Tuple[List[Any], List[Any], RunStats, List[Dict[str, Any]]]:
     """Run Algorithm v4 starting from ``s_0`` for ``T`` steps.
@@ -501,6 +502,7 @@ async def run_depth_speculative(
 
         # Process ALL done events this cycle (FIRST_COMPLETED may return
         # multiple simultaneously-resolved tasks).
+        advanced_root_early = False
         for e in watched:
             if e.task not in done:
                 continue
@@ -524,6 +526,28 @@ async def run_depth_speculative(
                 node.a_true = r
                 emit("ACTOR_RESOLVED", depth=node.depth,
                      a_true=r, is_root=(node is root))
+
+                # Optional latency optimization: if the ROOT Actor resolves but
+                # the ROOT Speculator is still pending, treat it as a MISS and
+                # advance immediately. This sacrifices any would-have-been HIT
+                # at the current step in exchange for avoiding waiting on the
+                # Speculator.
+                if root_actor_implies_miss and node is root and not node.spec_resolved:
+                    stats.misses += 1
+                    record_step("miss", r, root)
+                    emit("MISS", step=confirmed_t, a_true=r,
+                         predictions=list(root.predictions or []))
+                    states[confirmed_t + 1] = transition(states[confirmed_t], r)
+                    actions[confirmed_t] = r
+                    abandon_subtree(root)
+                    confirmed_t += 1
+                    if confirmed_t < T:
+                        root = make_root(states[confirmed_t], confirmed_t)
+                    else:
+                        root = None
+                    advanced_root_early = True
+                    break
+
                 prune_on_resolution(node)
 
             elif e.type == 'spec':
@@ -541,6 +565,10 @@ async def run_depth_speculative(
 
             if assert_invariants:
                 invariants_hold()
+
+        if advanced_root_early:
+            # Root changed; ignore any remaining done events this cycle.
+            continue
 
         # After processing events, see if the root can cascade forward.
         if root is not None:
