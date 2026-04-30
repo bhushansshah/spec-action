@@ -1,0 +1,53 @@
+{
+    "run_id": "a4060e3b-2305-4928-9691-718c5b0422dc",
+    "stop_after": 30,
+    "agent0": "OpenRouter",
+    "agent1": "OpenRouter",
+    "guess_model": "openai/gpt-oss-20b",
+    "wall_seconds": 1621.3890692080022,
+    "regular_time_seconds_sum": 1121.1843527943129,
+    "speculative_time_seconds_sum": 1064.790744167287,
+    "llm_usage": {
+        "actor": {
+            "input_tokens": 33231,
+            "output_tokens": 128435,
+            "total_tokens": 161666,
+            "invocations": 76,
+            "provider_cost_usd": 0.0,
+            "by_model": {
+                "openai/gpt-oss-120b": {
+                    "input_tokens": 33231,
+                    "output_tokens": 128435,
+                    "total_tokens": 161666,
+                    "invocations": 76,
+                    "provider_cost_usd": 0.0
+                }
+            }
+        },
+        "speculator": {
+            "input_tokens": 10857,
+            "output_tokens": 5479,
+            "total_tokens": 16336,
+            "invocations": 19,
+            "provider_cost_usd": 0.0015273000000000003,
+            "by_model": {
+                "openai/gpt-oss-20b": {
+                    "input_tokens": 10857,
+                    "output_tokens": 5479,
+                    "total_tokens": 16336,
+                    "invocations": 19,
+                    "provider_cost_usd": 0.0015273000000000003
+                }
+            }
+        },
+        "combined": {
+            "input_tokens": 44088,
+            "output_tokens": 133914,
+            "total_tokens": 178002,
+            "invocations": 95,
+            "provider_cost_usd": 0.0015273000000000003,
+            "by_model": {}
+        },
+        "notes": "Breadth pipeline records token usage for Actor calls via the TextArena agent wrapper, but that wrapper does not expose OpenRouter per-request `usage.cost`. Speculator cost can be recorded because guess calls go through AgentManager.call_guess_llm, which extracts OpenRouter `usage.cost` from the raw JSON response."
+    }
+}

@@ -1282,3 +1282,3595 @@ SIMULATION SPECULATION OUTPUT [c6e5]
 
 SIMULATION SPECULATION OUTPUT [c6e5]
 
+SIMULATION SPECULATION OUTPUT [h1h8]
+
+SIMULATION SPECULATION OUTPUT [e5g6]
+
+INFO STEP 21: player_id: 1 | current_observation: 
+[GAME] You are playing Black in a game of Chess.
+ Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P P P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [e2e3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [e2e4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e4]
+[GAME] Player 0 made the following move: e2e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8h6], [g8f6], [b8c6], [b8a6], [h7h6], [g7g6], [f7f6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [f7f5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f6]
+[GAME] Player 1 made the following move: g8f6
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [f1a6], [f1b5], [f1c4], [f1d3], [f1e2], [e1e2], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [e4e5], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [f1c4]
+[GAME] Player 0 made the following move: f1c4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [b8c6], [b8a6], [f6g8], [f6h5], [f6d5], [f6g4], [f6e4], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f6e4]
+[GAME] Player 1 made the following move: f6e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [c4f7], [c4e6], [c4a6], [c4d5], [c4b5], [c4d3], [c4b3], [c4e2], [c4f1], [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [b2b4], [a2a4]
+[White] [c4f7]
+[GAME] Player 0 made the following move: c4f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p B p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8f7]
+[Black] [e8f7]
+[GAME] Player 1 made the following move: e8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e1e2]
+[GAME] Player 0 made the following move: e1e2
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [d8e8], [b8c6], [b8a6], [f7g8], [f7e8], [f7g6], [f7f6], [f7e6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f7g8]
+[GAME] Player 1 made the following move: f7g8
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2f3], [e2e3], [e2d3], [e2f1], [e2e1], [g1h3], [g1f3], [d1f1], [d1e1], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [g1f3]
+[GAME] Player 0 made the following move: g1f3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . N . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [e4g3]
+[GAME] Player 1 made the following move: e4g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N n . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2e3], [e2d3], [e2e1], [h2g3], [f2g3]
+[White] [h2g3]
+[GAME] Player 0 made the following move: h2g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [b8c6]
+[GAME] Player 1 made the following move: b8c6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e2e3], [e2d3], [e2f1], [e2e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e3]
+[GAME] Player 0 made the following move: e2e3
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [c6b8], [c6e5], [c6a5], [c6d4], [c6b4], [h7h6], [g7g6], [e7e6], [d7d6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [b7b5], [a7a5]
+[Black] [c6d4]
+[GAME] Player 1 made the following move: c6d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . n . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e3f4], [e3e4], [e3d4], [e3d3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [e3d4]
+[GAME] Player 0 made the following move: e3d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f7]
+[GAME] Player 1 made the following move: g8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [d4e5], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [f3g5], [f3e5], [f3h4], [f3h2], [f3g1], [f3e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [f3e5]
+[GAME] Player 0 made the following move: f3e5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f7g8], [f7e8], [f7f6], [f7e6]
+[Black] [f7e8]
+[GAME] Player 1 made the following move: f7e8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1h5], [d1g4], [d1f3], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [d1h5]
+[GAME] Player 0 made the following move: d1h5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g7g6]
+[Black] [g7g6]
+[GAME] Player 1 made the following move: g7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h5h7], [h5h6], [h5g6], [h5g5], [h5f5], [h5h4], [h5g4], [h5h3], [h5f3], [h5h2], [h5e2], [h5d1], [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h5g6]
+[GAME] Player 0 made the following move: h5g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . Q . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h7g6] | current_move: [h7g6] | current_pred: ['[h7g6]', '[h7g6]', '[h7g6]'] | current_spec: ['[h1h8]', '[e5g6]', '[e5g6]'] | time_taken_current_agent: 0.6778758749715053 | time_taken_other_agent: [70.20779912505532, 40.70040733303176, 83.99450370803243] | time_taken_prediction: [0.6287870000232942, 0.6287870000232942, 0.6287870000232942] | time_taken_speculation: [69.57901212503202, 40.07162033300847, 83.36571670800913] | speculation_hit: False | num_predictions: 3 | input_tokens_current_agent: 302 | output_tokens_current_agent: 50 | total_tokens_current_agent: 352 | input_tokens_prediction: [456, 456, 456] | output_tokens_prediction: [59, 59, 59] | total_tokens_prediction: [515, 515, 515] | input_tokens_speculation: [512, 565, 524] | output_tokens_speculation: [2417, 1116, 1706] | total_tokens_speculation: [2929, 1681, 2230]
+
+---------------------------------------------------------------------------------------------------- 
+
+INFO STEP 22: player_id: 0 | current_observation: 
+[GAME] You are playing White in a game of Chess.
+ Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P P P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [e2e3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [e2e4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e4]
+[GAME] Player 0 made the following move: e2e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8h6], [g8f6], [b8c6], [b8a6], [h7h6], [g7g6], [f7f6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [f7f5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f6]
+[GAME] Player 1 made the following move: g8f6
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [f1a6], [f1b5], [f1c4], [f1d3], [f1e2], [e1e2], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [e4e5], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [f1c4]
+[GAME] Player 0 made the following move: f1c4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [b8c6], [b8a6], [f6g8], [f6h5], [f6d5], [f6g4], [f6e4], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f6e4]
+[GAME] Player 1 made the following move: f6e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [c4f7], [c4e6], [c4a6], [c4d5], [c4b5], [c4d3], [c4b3], [c4e2], [c4f1], [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [b2b4], [a2a4]
+[White] [c4f7]
+[GAME] Player 0 made the following move: c4f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p B p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8f7]
+[Black] [e8f7]
+[GAME] Player 1 made the following move: e8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e1e2]
+[GAME] Player 0 made the following move: e1e2
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [d8e8], [b8c6], [b8a6], [f7g8], [f7e8], [f7g6], [f7f6], [f7e6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f7g8]
+[GAME] Player 1 made the following move: f7g8
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2f3], [e2e3], [e2d3], [e2f1], [e2e1], [g1h3], [g1f3], [d1f1], [d1e1], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [g1f3]
+[GAME] Player 0 made the following move: g1f3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . N . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [e4g3]
+[GAME] Player 1 made the following move: e4g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N n . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2e3], [e2d3], [e2e1], [h2g3], [f2g3]
+[White] [h2g3]
+[GAME] Player 0 made the following move: h2g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [b8c6]
+[GAME] Player 1 made the following move: b8c6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e2e3], [e2d3], [e2f1], [e2e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e3]
+[GAME] Player 0 made the following move: e2e3
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [c6b8], [c6e5], [c6a5], [c6d4], [c6b4], [h7h6], [g7g6], [e7e6], [d7d6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [b7b5], [a7a5]
+[Black] [c6d4]
+[GAME] Player 1 made the following move: c6d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . n . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e3f4], [e3e4], [e3d4], [e3d3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [e3d4]
+[GAME] Player 0 made the following move: e3d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f7]
+[GAME] Player 1 made the following move: g8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [d4e5], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [f3g5], [f3e5], [f3h4], [f3h2], [f3g1], [f3e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [f3e5]
+[GAME] Player 0 made the following move: f3e5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f7g8], [f7e8], [f7f6], [f7e6]
+[Black] [f7e8]
+[GAME] Player 1 made the following move: f7e8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1h5], [d1g4], [d1f3], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [d1h5]
+[GAME] Player 0 made the following move: d1h5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g7g6]
+[Black] [g7g6]
+[GAME] Player 1 made the following move: g7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h5h7], [h5h6], [h5g6], [h5g5], [h5f5], [h5h4], [h5g4], [h5h3], [h5f3], [h5h2], [h5e2], [h5d1], [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h5g6]
+[GAME] Player 0 made the following move: h5g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . Q . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h7g6]
+[Black] [h7g6]
+[GAME] Player 1 made the following move: h7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . . |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h8], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4] | current_move: [h1h8] | current_pred: [] | current_spec: [] | time_taken_current_agent: 0 | time_taken_other_agent: [] | time_taken_prediction: [] | time_taken_speculation: [] | speculation_hit: True | num_predictions: 0 | input_tokens_current_agent: 0 | output_tokens_current_agent: 0 | total_tokens_current_agent: 0 | input_tokens_prediction: [] | output_tokens_prediction: [] | total_tokens_prediction: [] | input_tokens_speculation: [] | output_tokens_speculation: [] | total_tokens_speculation: []
+
+---------------------------------------------------------------------------------------------------- 
+
+SIMULATION GUESS OUTPUT [e7e6], [a8b8], [d7d6]
+
+SIMULATION SPECULATION OUTPUT [d4d5]
+
+SIMULATION SPECULATION OUTPUT [e5g6]
+
+SIMULATION SPECULATION OUTPUT [e5g6]
+
+INFO STEP 23: player_id: 1 | current_observation: 
+[GAME] You are playing Black in a game of Chess.
+ Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P P P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [e2e3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [e2e4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e4]
+[GAME] Player 0 made the following move: e2e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8h6], [g8f6], [b8c6], [b8a6], [h7h6], [g7g6], [f7f6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [f7f5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f6]
+[GAME] Player 1 made the following move: g8f6
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [f1a6], [f1b5], [f1c4], [f1d3], [f1e2], [e1e2], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [e4e5], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [f1c4]
+[GAME] Player 0 made the following move: f1c4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [b8c6], [b8a6], [f6g8], [f6h5], [f6d5], [f6g4], [f6e4], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f6e4]
+[GAME] Player 1 made the following move: f6e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [c4f7], [c4e6], [c4a6], [c4d5], [c4b5], [c4d3], [c4b3], [c4e2], [c4f1], [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [b2b4], [a2a4]
+[White] [c4f7]
+[GAME] Player 0 made the following move: c4f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p B p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8f7]
+[Black] [e8f7]
+[GAME] Player 1 made the following move: e8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e1e2]
+[GAME] Player 0 made the following move: e1e2
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [d8e8], [b8c6], [b8a6], [f7g8], [f7e8], [f7g6], [f7f6], [f7e6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f7g8]
+[GAME] Player 1 made the following move: f7g8
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2f3], [e2e3], [e2d3], [e2f1], [e2e1], [g1h3], [g1f3], [d1f1], [d1e1], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [g1f3]
+[GAME] Player 0 made the following move: g1f3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . N . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [e4g3]
+[GAME] Player 1 made the following move: e4g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N n . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2e3], [e2d3], [e2e1], [h2g3], [f2g3]
+[White] [h2g3]
+[GAME] Player 0 made the following move: h2g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [b8c6]
+[GAME] Player 1 made the following move: b8c6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e2e3], [e2d3], [e2f1], [e2e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e3]
+[GAME] Player 0 made the following move: e2e3
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [c6b8], [c6e5], [c6a5], [c6d4], [c6b4], [h7h6], [g7g6], [e7e6], [d7d6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [b7b5], [a7a5]
+[Black] [c6d4]
+[GAME] Player 1 made the following move: c6d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . n . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e3f4], [e3e4], [e3d4], [e3d3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [e3d4]
+[GAME] Player 0 made the following move: e3d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f7]
+[GAME] Player 1 made the following move: g8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [d4e5], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [f3g5], [f3e5], [f3h4], [f3h2], [f3g1], [f3e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [f3e5]
+[GAME] Player 0 made the following move: f3e5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f7g8], [f7e8], [f7f6], [f7e6]
+[Black] [f7e8]
+[GAME] Player 1 made the following move: f7e8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1h5], [d1g4], [d1f3], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [d1h5]
+[GAME] Player 0 made the following move: d1h5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g7g6]
+[Black] [g7g6]
+[GAME] Player 1 made the following move: g7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h5h7], [h5h6], [h5g6], [h5g5], [h5f5], [h5h4], [h5g4], [h5h3], [h5f3], [h5h2], [h5e2], [h5d1], [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h5g6]
+[GAME] Player 0 made the following move: h5g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . Q . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h7g6]
+[Black] [h7g6]
+[GAME] Player 1 made the following move: h7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . . |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h8], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h1h8]
+[GAME] Player 0 made the following move: h1h8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p p . . . |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [a8b8], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [g6g5], [d7d5], [c7c5], [b7b5], [a7a5] | current_move: [e7e6] | current_pred: ['[e7e6]', '[a8b8]', '[d7d6]'] | current_spec: ['[e5g6]', '[d4d5]', '[e5g6]'] | time_taken_current_agent: 45.64844920800533 | time_taken_other_agent: [82.08618308295263, 33.671538249996956, 50.23249024996767] | time_taken_prediction: [1.7550913749728352, 1.7550913749728352, 1.7550913749728352] | time_taken_speculation: [80.3310917079798, 31.91644687502412, 48.47739887499483] | speculation_hit: False | num_predictions: 3 | input_tokens_current_agent: 365 | output_tokens_current_agent: 983 | total_tokens_current_agent: 1348 | input_tokens_prediction: [521, 521, 521] | output_tokens_prediction: [119, 119, 119] | total_tokens_prediction: [640, 640, 640] | input_tokens_speculation: [501, 513, 506] | output_tokens_speculation: [1944, 2267, 1042] | total_tokens_speculation: [2445, 2780, 1548]
+
+---------------------------------------------------------------------------------------------------- 
+
+INFO STEP 24: player_id: 0 | current_observation: 
+[GAME] You are playing White in a game of Chess.
+ Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P P P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [e2e3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [e2e4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e4]
+[GAME] Player 0 made the following move: e2e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8h6], [g8f6], [b8c6], [b8a6], [h7h6], [g7g6], [f7f6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [f7f5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f6]
+[GAME] Player 1 made the following move: g8f6
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [f1a6], [f1b5], [f1c4], [f1d3], [f1e2], [e1e2], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [e4e5], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [f1c4]
+[GAME] Player 0 made the following move: f1c4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [b8c6], [b8a6], [f6g8], [f6h5], [f6d5], [f6g4], [f6e4], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f6e4]
+[GAME] Player 1 made the following move: f6e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [c4f7], [c4e6], [c4a6], [c4d5], [c4b5], [c4d3], [c4b3], [c4e2], [c4f1], [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [b2b4], [a2a4]
+[White] [c4f7]
+[GAME] Player 0 made the following move: c4f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p B p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8f7]
+[Black] [e8f7]
+[GAME] Player 1 made the following move: e8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e1e2]
+[GAME] Player 0 made the following move: e1e2
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [d8e8], [b8c6], [b8a6], [f7g8], [f7e8], [f7g6], [f7f6], [f7e6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f7g8]
+[GAME] Player 1 made the following move: f7g8
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2f3], [e2e3], [e2d3], [e2f1], [e2e1], [g1h3], [g1f3], [d1f1], [d1e1], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [g1f3]
+[GAME] Player 0 made the following move: g1f3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . N . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [e4g3]
+[GAME] Player 1 made the following move: e4g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N n . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2e3], [e2d3], [e2e1], [h2g3], [f2g3]
+[White] [h2g3]
+[GAME] Player 0 made the following move: h2g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [b8c6]
+[GAME] Player 1 made the following move: b8c6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e2e3], [e2d3], [e2f1], [e2e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e3]
+[GAME] Player 0 made the following move: e2e3
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [c6b8], [c6e5], [c6a5], [c6d4], [c6b4], [h7h6], [g7g6], [e7e6], [d7d6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [b7b5], [a7a5]
+[Black] [c6d4]
+[GAME] Player 1 made the following move: c6d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . n . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e3f4], [e3e4], [e3d4], [e3d3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [e3d4]
+[GAME] Player 0 made the following move: e3d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f7]
+[GAME] Player 1 made the following move: g8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [d4e5], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [f3g5], [f3e5], [f3h4], [f3h2], [f3g1], [f3e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [f3e5]
+[GAME] Player 0 made the following move: f3e5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f7g8], [f7e8], [f7f6], [f7e6]
+[Black] [f7e8]
+[GAME] Player 1 made the following move: f7e8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1h5], [d1g4], [d1f3], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [d1h5]
+[GAME] Player 0 made the following move: d1h5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g7g6]
+[Black] [g7g6]
+[GAME] Player 1 made the following move: g7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h5h7], [h5h6], [h5g6], [h5g5], [h5f5], [h5h4], [h5g4], [h5h3], [h5f3], [h5h2], [h5e2], [h5d1], [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h5g6]
+[GAME] Player 0 made the following move: h5g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . Q . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h7g6]
+[Black] [h7g6]
+[GAME] Player 1 made the following move: h7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . . |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h8], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h1h8]
+[GAME] Player 0 made the following move: h1h8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p p . . . |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [a8b8], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [g6g5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [e7e6]
+[GAME] Player 1 made the following move: e7e6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [h8f8], [h8h7], [h8h6], [h8h5], [h8h4], [h8h3], [h8h2], [h8h1], [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4] | current_move: [e5g6] | current_pred: [] | current_spec: [] | time_taken_current_agent: 0 | time_taken_other_agent: [] | time_taken_prediction: [] | time_taken_speculation: [] | speculation_hit: True | num_predictions: 0 | input_tokens_current_agent: 0 | output_tokens_current_agent: 0 | total_tokens_current_agent: 0 | input_tokens_prediction: [] | output_tokens_prediction: [] | total_tokens_prediction: [] | input_tokens_speculation: [] | output_tokens_speculation: [] | total_tokens_speculation: []
+
+---------------------------------------------------------------------------------------------------- 
+
+SIMULATION GUESS OUTPUT [d8h4], [d8g5], [d8f6]
+
+SIMULATION SPECULATION OUTPUT [g6e5]
+
+SIMULATION SPECULATION OUTPUT [h8h4]
+
+SIMULATION SPECULATION OUTPUT [h8f8]
+
+INFO STEP 25: player_id: 1 | current_observation: 
+[GAME] You are playing Black in a game of Chess.
+ Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P P P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [e2e3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [e2e4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e4]
+[GAME] Player 0 made the following move: e2e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8h6], [g8f6], [b8c6], [b8a6], [h7h6], [g7g6], [f7f6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [f7f5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f6]
+[GAME] Player 1 made the following move: g8f6
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [f1a6], [f1b5], [f1c4], [f1d3], [f1e2], [e1e2], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [e4e5], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [f1c4]
+[GAME] Player 0 made the following move: f1c4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [b8c6], [b8a6], [f6g8], [f6h5], [f6d5], [f6g4], [f6e4], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f6e4]
+[GAME] Player 1 made the following move: f6e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [c4f7], [c4e6], [c4a6], [c4d5], [c4b5], [c4d3], [c4b3], [c4e2], [c4f1], [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [b2b4], [a2a4]
+[White] [c4f7]
+[GAME] Player 0 made the following move: c4f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p B p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8f7]
+[Black] [e8f7]
+[GAME] Player 1 made the following move: e8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e1e2]
+[GAME] Player 0 made the following move: e1e2
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [d8e8], [b8c6], [b8a6], [f7g8], [f7e8], [f7g6], [f7f6], [f7e6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f7g8]
+[GAME] Player 1 made the following move: f7g8
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2f3], [e2e3], [e2d3], [e2f1], [e2e1], [g1h3], [g1f3], [d1f1], [d1e1], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [g1f3]
+[GAME] Player 0 made the following move: g1f3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . N . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [e4g3]
+[GAME] Player 1 made the following move: e4g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N n . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2e3], [e2d3], [e2e1], [h2g3], [f2g3]
+[White] [h2g3]
+[GAME] Player 0 made the following move: h2g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [b8c6]
+[GAME] Player 1 made the following move: b8c6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e2e3], [e2d3], [e2f1], [e2e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e3]
+[GAME] Player 0 made the following move: e2e3
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [c6b8], [c6e5], [c6a5], [c6d4], [c6b4], [h7h6], [g7g6], [e7e6], [d7d6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [b7b5], [a7a5]
+[Black] [c6d4]
+[GAME] Player 1 made the following move: c6d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . n . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e3f4], [e3e4], [e3d4], [e3d3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [e3d4]
+[GAME] Player 0 made the following move: e3d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f7]
+[GAME] Player 1 made the following move: g8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [d4e5], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [f3g5], [f3e5], [f3h4], [f3h2], [f3g1], [f3e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [f3e5]
+[GAME] Player 0 made the following move: f3e5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f7g8], [f7e8], [f7f6], [f7e6]
+[Black] [f7e8]
+[GAME] Player 1 made the following move: f7e8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1h5], [d1g4], [d1f3], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [d1h5]
+[GAME] Player 0 made the following move: d1h5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g7g6]
+[Black] [g7g6]
+[GAME] Player 1 made the following move: g7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h5h7], [h5h6], [h5g6], [h5g5], [h5f5], [h5h4], [h5g4], [h5h3], [h5f3], [h5h2], [h5e2], [h5d1], [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h5g6]
+[GAME] Player 0 made the following move: h5g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . Q . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h7g6]
+[Black] [h7g6]
+[GAME] Player 1 made the following move: h7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . . |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h8], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h1h8]
+[GAME] Player 0 made the following move: h1h8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p p . . . |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [a8b8], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [g6g5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [e7e6]
+[GAME] Player 1 made the following move: e7e6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [h8f8], [h8h7], [h8h6], [h8h5], [h8h4], [h8h3], [h8h2], [h8h1], [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [e5g6]
+[GAME] Player 0 made the following move: e5g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p . N . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8f7], [d8e7], [d8f6], [d8g5], [d8h4], [a8b8], [d7d6], [c7c6], [b7b6], [a7a6], [e6e5], [d7d5], [c7c5], [b7b5], [a7a5] | current_move: [d8f6] | current_pred: ['[d8h4]', '[d8g5]', '[d8f6]'] | current_spec: ['[h8h4]', '[h8f8]', '[g6e5]'] | time_taken_current_agent: 18.486051167012192 | time_taken_other_agent: [21.86742145800963, 52.01220687502064, 2.633424042025581] | time_taken_prediction: [0.8642581670428626, 0.8642581670428626, 0.8642581670428626] | time_taken_speculation: [21.003163290966768, 51.147948707977775, 1.7691658749827184] | speculation_hit: False | num_predictions: 3 | input_tokens_current_agent: 386 | output_tokens_current_agent: 2270 | total_tokens_current_agent: 2656 | input_tokens_prediction: [542, 542, 542] | output_tokens_prediction: [77, 77, 77] | total_tokens_prediction: [619, 619, 619] | input_tokens_speculation: [344, 464, 327] | output_tokens_speculation: [793, 1672, 1985] | total_tokens_speculation: [1137, 2136, 2312]
+
+---------------------------------------------------------------------------------------------------- 
+
+INFO STEP 26: player_id: 0 | current_observation: 
+[GAME] You are playing White in a game of Chess.
+ Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P P P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [e2e3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [e2e4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e4]
+[GAME] Player 0 made the following move: e2e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8h6], [g8f6], [b8c6], [b8a6], [h7h6], [g7g6], [f7f6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [f7f5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f6]
+[GAME] Player 1 made the following move: g8f6
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [f1a6], [f1b5], [f1c4], [f1d3], [f1e2], [e1e2], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [e4e5], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [f1c4]
+[GAME] Player 0 made the following move: f1c4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [b8c6], [b8a6], [f6g8], [f6h5], [f6d5], [f6g4], [f6e4], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f6e4]
+[GAME] Player 1 made the following move: f6e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [c4f7], [c4e6], [c4a6], [c4d5], [c4b5], [c4d3], [c4b3], [c4e2], [c4f1], [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [b2b4], [a2a4]
+[White] [c4f7]
+[GAME] Player 0 made the following move: c4f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p B p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8f7]
+[Black] [e8f7]
+[GAME] Player 1 made the following move: e8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e1e2]
+[GAME] Player 0 made the following move: e1e2
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [d8e8], [b8c6], [b8a6], [f7g8], [f7e8], [f7g6], [f7f6], [f7e6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f7g8]
+[GAME] Player 1 made the following move: f7g8
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2f3], [e2e3], [e2d3], [e2f1], [e2e1], [g1h3], [g1f3], [d1f1], [d1e1], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [g1f3]
+[GAME] Player 0 made the following move: g1f3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . N . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [e4g3]
+[GAME] Player 1 made the following move: e4g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N n . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2e3], [e2d3], [e2e1], [h2g3], [f2g3]
+[White] [h2g3]
+[GAME] Player 0 made the following move: h2g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [b8c6]
+[GAME] Player 1 made the following move: b8c6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e2e3], [e2d3], [e2f1], [e2e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e3]
+[GAME] Player 0 made the following move: e2e3
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [c6b8], [c6e5], [c6a5], [c6d4], [c6b4], [h7h6], [g7g6], [e7e6], [d7d6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [b7b5], [a7a5]
+[Black] [c6d4]
+[GAME] Player 1 made the following move: c6d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . n . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e3f4], [e3e4], [e3d4], [e3d3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [e3d4]
+[GAME] Player 0 made the following move: e3d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f7]
+[GAME] Player 1 made the following move: g8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [d4e5], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [f3g5], [f3e5], [f3h4], [f3h2], [f3g1], [f3e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [f3e5]
+[GAME] Player 0 made the following move: f3e5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f7g8], [f7e8], [f7f6], [f7e6]
+[Black] [f7e8]
+[GAME] Player 1 made the following move: f7e8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1h5], [d1g4], [d1f3], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [d1h5]
+[GAME] Player 0 made the following move: d1h5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g7g6]
+[Black] [g7g6]
+[GAME] Player 1 made the following move: g7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h5h7], [h5h6], [h5g6], [h5g5], [h5f5], [h5h4], [h5g4], [h5h3], [h5f3], [h5h2], [h5e2], [h5d1], [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h5g6]
+[GAME] Player 0 made the following move: h5g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . Q . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h7g6]
+[Black] [h7g6]
+[GAME] Player 1 made the following move: h7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . . |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h8], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h1h8]
+[GAME] Player 0 made the following move: h1h8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p p . . . |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [a8b8], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [g6g5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [e7e6]
+[GAME] Player 1 made the following move: e7e6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [h8f8], [h8h7], [h8h6], [h8h5], [h8h4], [h8h3], [h8h2], [h8h1], [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [e5g6]
+[GAME] Player 0 made the following move: e5g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p . N . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8f7], [d8e7], [d8f6], [d8g5], [d8h4], [a8b8], [d7d6], [c7c6], [b7b6], [a7a6], [e6e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [d8f6]
+[GAME] Player 1 made the following move: d8f6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b . k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p q N . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [d4e4], [d4c4], [d4e3], [d4d3], [g6e5] | current_move: [g6e5] | current_pred: [] | current_spec: [] | time_taken_current_agent: 0 | time_taken_other_agent: [] | time_taken_prediction: [] | time_taken_speculation: [] | speculation_hit: True | num_predictions: 0 | input_tokens_current_agent: 0 | output_tokens_current_agent: 0 | total_tokens_current_agent: 0 | input_tokens_prediction: [] | output_tokens_prediction: [] | total_tokens_prediction: [] | input_tokens_speculation: [] | output_tokens_speculation: [] | total_tokens_speculation: []
+
+---------------------------------------------------------------------------------------------------- 
+
+SIMULATION GUESS OUTPUT [f6g5], [e8e7], [f6h4]
+
+SIMULATION SPECULATION OUTPUT [h8h4]
+
+SIMULATION SPECULATION OUTPUT [h8f8]
+
+SIMULATION SPECULATION OUTPUT [h8h7]
+
+INFO STEP 27: player_id: 1 | current_observation: 
+[GAME] You are playing Black in a game of Chess.
+ Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P P P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [e2e3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [e2e4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e4]
+[GAME] Player 0 made the following move: e2e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8h6], [g8f6], [b8c6], [b8a6], [h7h6], [g7g6], [f7f6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [f7f5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f6]
+[GAME] Player 1 made the following move: g8f6
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [f1a6], [f1b5], [f1c4], [f1d3], [f1e2], [e1e2], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [e4e5], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [f1c4]
+[GAME] Player 0 made the following move: f1c4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [b8c6], [b8a6], [f6g8], [f6h5], [f6d5], [f6g4], [f6e4], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f6e4]
+[GAME] Player 1 made the following move: f6e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [c4f7], [c4e6], [c4a6], [c4d5], [c4b5], [c4d3], [c4b3], [c4e2], [c4f1], [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [b2b4], [a2a4]
+[White] [c4f7]
+[GAME] Player 0 made the following move: c4f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p B p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8f7]
+[Black] [e8f7]
+[GAME] Player 1 made the following move: e8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e1e2]
+[GAME] Player 0 made the following move: e1e2
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [d8e8], [b8c6], [b8a6], [f7g8], [f7e8], [f7g6], [f7f6], [f7e6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f7g8]
+[GAME] Player 1 made the following move: f7g8
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2f3], [e2e3], [e2d3], [e2f1], [e2e1], [g1h3], [g1f3], [d1f1], [d1e1], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [g1f3]
+[GAME] Player 0 made the following move: g1f3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . N . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [e4g3]
+[GAME] Player 1 made the following move: e4g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N n . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2e3], [e2d3], [e2e1], [h2g3], [f2g3]
+[White] [h2g3]
+[GAME] Player 0 made the following move: h2g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [b8c6]
+[GAME] Player 1 made the following move: b8c6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e2e3], [e2d3], [e2f1], [e2e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e3]
+[GAME] Player 0 made the following move: e2e3
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [c6b8], [c6e5], [c6a5], [c6d4], [c6b4], [h7h6], [g7g6], [e7e6], [d7d6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [b7b5], [a7a5]
+[Black] [c6d4]
+[GAME] Player 1 made the following move: c6d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . n . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e3f4], [e3e4], [e3d4], [e3d3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [e3d4]
+[GAME] Player 0 made the following move: e3d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f7]
+[GAME] Player 1 made the following move: g8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [d4e5], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [f3g5], [f3e5], [f3h4], [f3h2], [f3g1], [f3e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [f3e5]
+[GAME] Player 0 made the following move: f3e5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f7g8], [f7e8], [f7f6], [f7e6]
+[Black] [f7e8]
+[GAME] Player 1 made the following move: f7e8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1h5], [d1g4], [d1f3], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [d1h5]
+[GAME] Player 0 made the following move: d1h5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g7g6]
+[Black] [g7g6]
+[GAME] Player 1 made the following move: g7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h5h7], [h5h6], [h5g6], [h5g5], [h5f5], [h5h4], [h5g4], [h5h3], [h5f3], [h5h2], [h5e2], [h5d1], [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h5g6]
+[GAME] Player 0 made the following move: h5g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . Q . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h7g6]
+[Black] [h7g6]
+[GAME] Player 1 made the following move: h7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . . |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h8], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h1h8]
+[GAME] Player 0 made the following move: h1h8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p p . . . |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [a8b8], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [g6g5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [e7e6]
+[GAME] Player 1 made the following move: e7e6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [h8f8], [h8h7], [h8h6], [h8h5], [h8h4], [h8h3], [h8h2], [h8h1], [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [e5g6]
+[GAME] Player 0 made the following move: e5g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p . N . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8f7], [d8e7], [d8f6], [d8g5], [d8h4], [a8b8], [d7d6], [c7c6], [b7b6], [a7a6], [e6e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [d8f6]
+[GAME] Player 1 made the following move: d8f6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b . k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p q N . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [d4e4], [d4c4], [d4e3], [d4d3], [g6e5]
+[White] [g6e5]
+[GAME] Player 0 made the following move: g6e5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b . k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p q . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8d8], [e8e7], [a8b8], [f6h8], [f6d8], [f6g7], [f6f7], [f6e7], [f6h6], [f6g6], [f6g5], [f6f5], [f6e5], [f6h4], [f6f4], [f6f3], [f6f2], [d7d6], [c7c6], [b7b6], [a7a6], [d7d5], [c7c5], [b7b5], [a7a5] | current_move: [f6h8] | current_pred: ['[f6g5]', '[e8e7]', '[f6h4]'] | current_spec: ['[h8f8]', '[h8h7]', '[h8h4]'] | time_taken_current_agent: 66.93027166702086 | time_taken_other_agent: [19.05830016703112, 108.73684087506263, 8.333158000023104] | time_taken_prediction: [4.70463179203216, 4.70463179203216, 4.70463179203216] | time_taken_speculation: [14.35366837499896, 104.03220908303047, 3.6285262079909444] | speculation_hit: False | num_predictions: 3 | input_tokens_current_agent: 436 | output_tokens_current_agent: 2517 | total_tokens_current_agent: 2953 | input_tokens_prediction: [592, 592, 592] | output_tokens_prediction: [90, 90, 90] | total_tokens_prediction: [682, 682, 682] | input_tokens_speculation: [478, 446, 345] | output_tokens_speculation: [5543, 3977, 2228] | total_tokens_speculation: [6021, 4423, 2573]
+
+---------------------------------------------------------------------------------------------------- 
+
+SIMULATION GUESS OUTPUT [d4e4], [b1c3], [g3g4]
+
+SIMULATION SPECULATION OUTPUT [h8e5]
+
+SIMULATION SPECULATION OUTPUT [h8e5]
+
+SIMULATION SPECULATION OUTPUT [h8e5]
+
+INFO STEP 28: player_id: 0 | current_observation: 
+[GAME] You are playing White in a game of Chess.
+ Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P P P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [e2e3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [e2e4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e4]
+[GAME] Player 0 made the following move: e2e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8h6], [g8f6], [b8c6], [b8a6], [h7h6], [g7g6], [f7f6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [f7f5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f6]
+[GAME] Player 1 made the following move: g8f6
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [f1a6], [f1b5], [f1c4], [f1d3], [f1e2], [e1e2], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [e4e5], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [f1c4]
+[GAME] Player 0 made the following move: f1c4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [b8c6], [b8a6], [f6g8], [f6h5], [f6d5], [f6g4], [f6e4], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f6e4]
+[GAME] Player 1 made the following move: f6e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [c4f7], [c4e6], [c4a6], [c4d5], [c4b5], [c4d3], [c4b3], [c4e2], [c4f1], [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [b2b4], [a2a4]
+[White] [c4f7]
+[GAME] Player 0 made the following move: c4f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p B p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8f7]
+[Black] [e8f7]
+[GAME] Player 1 made the following move: e8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e1e2]
+[GAME] Player 0 made the following move: e1e2
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [d8e8], [b8c6], [b8a6], [f7g8], [f7e8], [f7g6], [f7f6], [f7e6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f7g8]
+[GAME] Player 1 made the following move: f7g8
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2f3], [e2e3], [e2d3], [e2f1], [e2e1], [g1h3], [g1f3], [d1f1], [d1e1], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [g1f3]
+[GAME] Player 0 made the following move: g1f3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . N . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [e4g3]
+[GAME] Player 1 made the following move: e4g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N n . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2e3], [e2d3], [e2e1], [h2g3], [f2g3]
+[White] [h2g3]
+[GAME] Player 0 made the following move: h2g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [b8c6]
+[GAME] Player 1 made the following move: b8c6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e2e3], [e2d3], [e2f1], [e2e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e3]
+[GAME] Player 0 made the following move: e2e3
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [c6b8], [c6e5], [c6a5], [c6d4], [c6b4], [h7h6], [g7g6], [e7e6], [d7d6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [b7b5], [a7a5]
+[Black] [c6d4]
+[GAME] Player 1 made the following move: c6d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . n . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e3f4], [e3e4], [e3d4], [e3d3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [e3d4]
+[GAME] Player 0 made the following move: e3d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f7]
+[GAME] Player 1 made the following move: g8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [d4e5], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [f3g5], [f3e5], [f3h4], [f3h2], [f3g1], [f3e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [f3e5]
+[GAME] Player 0 made the following move: f3e5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f7g8], [f7e8], [f7f6], [f7e6]
+[Black] [f7e8]
+[GAME] Player 1 made the following move: f7e8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1h5], [d1g4], [d1f3], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [d1h5]
+[GAME] Player 0 made the following move: d1h5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g7g6]
+[Black] [g7g6]
+[GAME] Player 1 made the following move: g7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h5h7], [h5h6], [h5g6], [h5g5], [h5f5], [h5h4], [h5g4], [h5h3], [h5f3], [h5h2], [h5e2], [h5d1], [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h5g6]
+[GAME] Player 0 made the following move: h5g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . Q . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h7g6]
+[Black] [h7g6]
+[GAME] Player 1 made the following move: h7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . . |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h8], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h1h8]
+[GAME] Player 0 made the following move: h1h8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p p . . . |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [a8b8], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [g6g5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [e7e6]
+[GAME] Player 1 made the following move: e7e6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [h8f8], [h8h7], [h8h6], [h8h5], [h8h4], [h8h3], [h8h2], [h8h1], [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [e5g6]
+[GAME] Player 0 made the following move: e5g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p . N . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8f7], [d8e7], [d8f6], [d8g5], [d8h4], [a8b8], [d7d6], [c7c6], [b7b6], [a7a6], [e6e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [d8f6]
+[GAME] Player 1 made the following move: d8f6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b . k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p q N . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [d4e4], [d4c4], [d4e3], [d4d3], [g6e5]
+[White] [g6e5]
+[GAME] Player 0 made the following move: g6e5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b . k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p q . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8d8], [e8e7], [a8b8], [f6h8], [f6d8], [f6g7], [f6f7], [f6e7], [f6h6], [f6g6], [f6g5], [f6f5], [f6e5], [f6h4], [f6f4], [f6f3], [f6f2], [d7d6], [c7c6], [b7b6], [a7a6], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f6h8]
+[GAME] Player 1 made the following move: f6h8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b . k b . q |
+ 7 | p p p p . . . . |
+ 6 | . . . . p . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4] | current_move: [d4c3] | current_pred: ['[d4e4]', '[b1c3]', '[g3g4]'] | current_spec: ['[h8e5]', '[h8e5]', '[h8e5]'] | time_taken_current_agent: 103.49188787501771 | time_taken_other_agent: [59.55969737499254, 62.77543025003979, 95.81534666696098] | time_taken_prediction: [1.4970262499991804, 1.4970262499991804, 1.4970262499991804] | time_taken_speculation: [58.06267112499336, 61.27840400004061, 94.3183204169618] | speculation_hit: False | num_predictions: 3 | input_tokens_current_agent: 401 | output_tokens_current_agent: 1684 | total_tokens_current_agent: 2085 | input_tokens_prediction: [557, 557, 557] | output_tokens_prediction: [80, 80, 80] | total_tokens_prediction: [637, 637, 637] | input_tokens_speculation: [470, 455, 470] | output_tokens_speculation: [1508, 2868, 2777] | total_tokens_speculation: [1978, 3323, 3247]
+
+---------------------------------------------------------------------------------------------------- 
+
+SIMULATION GUESS OUTPUT [h8h2], [h8g7], [f8c5]
+
+SIMULATION SPECULATION OUTPUT [c3c4]
+
+SIMULATION SPECULATION OUTPUT [d2d4]
+
+SIMULATION SPECULATION OUTPUT [e5d7]
+
+INFO STEP 29: player_id: 1 | current_observation: 
+[GAME] You are playing Black in a game of Chess.
+ Make your moves in UCI format enclosed in square brackets (e.g., [e2e4]).
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P P P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [e2e3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [e2e4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e4]
+[GAME] Player 0 made the following move: e2e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b n r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8h6], [g8f6], [b8c6], [b8a6], [h7h6], [g7g6], [f7f6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [f7f5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f6]
+[GAME] Player 1 made the following move: g8f6
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K B N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [f1a6], [f1b5], [f1c4], [f1d3], [f1e2], [e1e2], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [e4e5], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [f1c4]
+[GAME] Player 0 made the following move: f1c4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . n . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . P . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [b8c6], [b8a6], [f6g8], [f6h5], [f6d5], [f6g4], [f6e4], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f6e4]
+[GAME] Player 1 made the following move: f6e4
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . B . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [c4f7], [c4e6], [c4a6], [c4d5], [c4b5], [c4d3], [c4b3], [c4e2], [c4f1], [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [b2b4], [a2a4]
+[White] [c4f7]
+[GAME] Player 0 made the following move: c4f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p p B p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8f7]
+[Black] [e8f7]
+[GAME] Player 1 made the following move: e8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P . P P P |
+ 1 | R N B Q K . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g1h3], [g1f3], [g1e2], [e1e2], [e1f1], [d1h5], [d1g4], [d1f3], [d1e2], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e1e2]
+[GAME] Player 0 made the following move: e1e2
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [d8e8], [b8c6], [b8a6], [f7g8], [f7e8], [f7g6], [f7f6], [f7e6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f7g8]
+[GAME] Player 1 made the following move: f7g8
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . . . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . N R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2f3], [e2e3], [e2d3], [e2f1], [e2e1], [g1h3], [g1f3], [d1f1], [d1e1], [b1c3], [b1a3], [h2h3], [g2g3], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [h2h4], [g2g4], [f2f4], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [g1f3]
+[GAME] Player 0 made the following move: g1f3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . n . . . |
+ 3 | . . . . . N . . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [e4f6], [e4d6], [e4g5], [e4c5], [e4g3], [e4c3], [e4f2], [e4d2], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [e4g3]
+[GAME] Player 1 made the following move: e4g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N n . |
+ 2 | P P P P K P P P |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e2e3], [e2d3], [e2e1], [h2g3], [f2g3]
+[White] [h2g3]
+[GAME] Player 0 made the following move: h2g3
+[GAME] Current board:
+   +-----------------+
+ 8 | r n b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [b8c6], [b8a6], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [b8c6]
+[GAME] Player 1 made the following move: b8c6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P K P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e2e3], [e2d3], [e2f1], [e2e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [d2d4], [c2c4], [b2b4], [a2a4]
+[White] [e2e3]
+[GAME] Player 0 made the following move: e2e3
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . n . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [c6b8], [c6e5], [c6a5], [c6d4], [c6b4], [h7h6], [g7g6], [e7e6], [d7d6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [b7b5], [a7a5]
+[Black] [c6d4]
+[GAME] Player 1 made the following move: c6d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . n . . . . |
+ 3 | . . . . K N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f3g5], [f3e5], [f3h4], [f3d4], [f3h2], [f3g1], [f3e1], [e3f4], [e3e4], [e3d4], [e3d3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [e3d4]
+[GAME] Player 0 made the following move: e3d4
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b k r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g8f7], [d8e8], [a8b8], [h7h6], [g7g6], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [h7h5], [g7g5], [e7e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [g8f7]
+[GAME] Player 1 made the following move: g8f7
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . N P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [d4e5], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [f3g5], [f3e5], [f3h4], [f3h2], [f3g1], [f3e1], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [d2d3], [c2c3], [b2b3], [a2a3], [c2c4], [b2b4], [a2a4]
+[White] [f3e5]
+[GAME] Player 0 made the following move: f3e5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q . b . r |
+ 7 | p p p p p k p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [f7g8], [f7e8], [f7f6], [f7e6]
+[Black] [f7e8]
+[GAME] Player 1 made the following move: f7e8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B Q . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [d1h5], [d1g4], [d1f3], [d1e2], [d1g1], [d1f1], [d1e1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [d1h5]
+[GAME] Player 0 made the following move: d1h5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . p p |
+ 6 | . . . . . . . . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [g7g6]
+[Black] [g7g6]
+[GAME] Player 1 made the following move: g7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . Q |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h5h7], [h5h6], [h5g6], [h5g5], [h5f5], [h5h4], [h5g4], [h5h3], [h5f3], [h5h2], [h5e2], [h5d1], [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h5g6]
+[GAME] Player 0 made the following move: h5g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . p |
+ 6 | . . . . . . Q . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h7g6]
+[Black] [h7g6]
+[GAME] Player 1 made the following move: h7g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . r |
+ 7 | p p p p p . . . |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . R |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4d5], [d4c5], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [h1h8], [h1h7], [h1h6], [h1h5], [h1h4], [h1h3], [h1h2], [h1g1], [h1f1], [h1e1], [h1d1], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [h1h8]
+[GAME] Player 0 made the following move: h1h8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p p . . . |
+ 6 | . . . . . . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [a8b8], [e7e6], [d7d6], [c7c6], [b7b6], [a7a6], [g6g5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [e7e6]
+[GAME] Player 1 made the following move: e7e6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p . p . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [h8f8], [h8h7], [h8h6], [h8h5], [h8h4], [h8h3], [h8h2], [h8h1], [e5f7], [e5d7], [e5g6], [e5c6], [e5g4], [e5c4], [e5f3], [e5d3], [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [e5g6]
+[GAME] Player 0 made the following move: e5g6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b q k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p . N . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8f7], [d8e7], [d8f6], [d8g5], [d8h4], [a8b8], [d7d6], [c7c6], [b7b6], [a7a6], [e6e5], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [d8f6]
+[GAME] Player 1 made the following move: d8f6
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b . k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p q N . |
+ 5 | . . . . . . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [d4e4], [d4c4], [d4e3], [d4d3], [g6e5]
+[White] [g6e5]
+[GAME] Player 0 made the following move: g6e5
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b . k b . R |
+ 7 | p p p p . . . . |
+ 6 | . . . . p q . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [e8d8], [e8e7], [a8b8], [f6h8], [f6d8], [f6g7], [f6f7], [f6e7], [f6h6], [f6g6], [f6g5], [f6f5], [f6e5], [f6h4], [f6f4], [f6f3], [f6f2], [d7d6], [c7c6], [b7b6], [a7a6], [d7d5], [c7c5], [b7b5], [a7a5]
+[Black] [f6h8]
+[GAME] Player 1 made the following move: f6h8
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b . k b . q |
+ 7 | p p p p . . . . |
+ 6 | . . . . p . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . K . . . . |
+ 3 | . . . . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [d4e4], [d4c4], [d4e3], [d4d3], [d4c3], [b1c3], [b1a3], [g3g4], [f2f3], [d2d3], [c2c3], [b2b3], [a2a3], [f2f4], [c2c4], [b2b4], [a2a4]
+[White] [d4c3]
+[GAME] Player 0 made the following move: d4c3
+[GAME] Current board:
+   +-----------------+
+ 8 | r . b . k b . q |
+ 7 | p p p p . . . . |
+ 6 | . . . . p . . . |
+ 5 | . . . . N . . . |
+ 4 | . . . . . . . . |
+ 3 | . . K . . . P . |
+ 2 | P P P P . P P . |
+ 1 | R N B . . . . . |
+   +-----------------+
+    a b c d e f g h 
+Valid moves: [h8g8], [h8h7], [h8g7], [h8h6], [h8f6], [h8h5], [h8e5], [h8h4], [h8h3], [h8h2], [h8h1], [f8g7], [f8e7], [f8h6], [f8d6], [f8c5], [f8b4], [f8a3], [e8d8], [e8e7], [a8b8], [d7d6], [c7c6], [b7b6], [a7a6], [d7d5], [c7c5], [b7b5], [a7a5] | current_move: [h8e5] | current_pred: ['[h8h2]', '[h8g7]', '[f8c5]'] | current_spec: ['[e5d7]', '[d2d4]', '[c3c4]'] | time_taken_current_agent: 19.769161459000316 | time_taken_other_agent: [59.68653574999189, 23.215526167070493, 16.16588150098687] | time_taken_prediction: [6.850749417033512, 6.850749417033512, 6.850749417033512] | time_taken_speculation: [52.83578633295838, 16.36477675003698, 9.315132083953358] | speculation_hit: False | num_predictions: 3 | input_tokens_current_agent: 473 | output_tokens_current_agent: 2106 | total_tokens_current_agent: 2579 | input_tokens_prediction: [613, 613, 613] | output_tokens_prediction: [71, 71, 71] | total_tokens_prediction: [684, 684, 684] | input_tokens_speculation: [428, 378, 372] | output_tokens_speculation: [1445, 2503, 1685] | total_tokens_speculation: [1873, 2881, 2057]
+
+---------------------------------------------------------------------------------------------------- 
+
+INFO Run completed for a4060e3b-2305-4928-9691-718c5b0422dc
+
