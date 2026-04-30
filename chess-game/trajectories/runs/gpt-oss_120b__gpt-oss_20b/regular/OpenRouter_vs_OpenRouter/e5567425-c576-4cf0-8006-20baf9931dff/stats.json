@@ -1,0 +1,43 @@
+{
+    "run_id": "e5567425-c576-4cf0-8006-20baf9931dff",
+    "stop_after": 30,
+    "agent0": "OpenRouter",
+    "agent1": "OpenRouter",
+    "wall_seconds": 1495.7253064580145,
+    "regular_time_seconds_sum": 1495.6091042477638,
+    "llm_usage": {
+        "actor": {
+            "input_tokens": 13235,
+            "output_tokens": 48729,
+            "total_tokens": 61964,
+            "invocations": 30,
+            "provider_cost_usd": 0.0,
+            "by_model": {
+                "openai/gpt-oss-120b": {
+                    "input_tokens": 13235,
+                    "output_tokens": 48729,
+                    "total_tokens": 61964,
+                    "invocations": 30,
+                    "provider_cost_usd": 0.0
+                }
+            }
+        },
+        "combined": {
+            "input_tokens": 13235,
+            "output_tokens": 48729,
+            "total_tokens": 61964,
+            "invocations": 30,
+            "provider_cost_usd": 0.0,
+            "by_model": {
+                "openai/gpt-oss-120b": {
+                    "input_tokens": 13235,
+                    "output_tokens": 48729,
+                    "total_tokens": 61964,
+                    "invocations": 30,
+                    "provider_cost_usd": 0.0
+                }
+            }
+        },
+        "notes": "Regular pipeline records token usage for Actor calls via the TextArena agent wrapper, but that wrapper does not expose OpenRouter per-request `usage.cost`, so provider_cost_usd is 0.0."
+    }
+}
