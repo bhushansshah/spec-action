@@ -1,0 +1,53 @@
+{
+    "run_id": "aa60f5d4-f354-4a12-bf2a-94cfc3bfb32d",
+    "stop_after": 30,
+    "agent0": "OpenRouter",
+    "agent1": "OpenRouter",
+    "guess_model": "qwen/qwen3.6-27b",
+    "wall_seconds": 7557.567829583015,
+    "regular_time_seconds_sum": 2489.4239474139176,
+    "speculative_time_seconds_sum": 3178.990373708948,
+    "llm_usage": {
+        "actor": {
+            "input_tokens": 40343,
+            "output_tokens": 609171,
+            "total_tokens": 649514,
+            "invocations": 95,
+            "provider_cost_usd": 0.0,
+            "by_model": {
+                "qwen/qwen3.6-plus": {
+                    "input_tokens": 40343,
+                    "output_tokens": 609171,
+                    "total_tokens": 649514,
+                    "invocations": 95,
+                    "provider_cost_usd": 0.0
+                }
+            }
+        },
+        "speculator": {
+            "input_tokens": 11632,
+            "output_tokens": 146478,
+            "total_tokens": 158110,
+            "invocations": 20,
+            "provider_cost_usd": 0.401921875,
+            "by_model": {
+                "qwen/qwen3.6-27b": {
+                    "input_tokens": 11632,
+                    "output_tokens": 146478,
+                    "total_tokens": 158110,
+                    "invocations": 20,
+                    "provider_cost_usd": 0.401921875
+                }
+            }
+        },
+        "combined": {
+            "input_tokens": 51975,
+            "output_tokens": 755649,
+            "total_tokens": 807624,
+            "invocations": 115,
+            "provider_cost_usd": 0.401921875,
+            "by_model": {}
+        },
+        "notes": "Breadth pipeline records token usage for Actor calls via the TextArena agent wrapper, but that wrapper does not expose OpenRouter per-request `usage.cost`. Speculator cost can be recorded because guess calls go through AgentManager.call_guess_llm, which extracts OpenRouter `usage.cost` from the raw JSON response."
+    }
+}
